@@ -1,0 +1,935 @@
+#boton-superpuesto1 /*EXTERIOR CASETA A 2*/ { 
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 42%; /* Ajusta la posición superior según tus necesidades */
+    left: 30%; /* Ajusta la posición izquierda según tus necesidades */
+    z-index: 5; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+}
+/* Estilo para el menú */
+#menu1 {
+    display: none;
+    position: absolute;
+    top: 42%;
+    left: 37.5%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 0.6vw;
+    z-index: 3;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu1 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu1 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto2 /*EXTERIOR CASETA A3*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 45%; 
+    left: 27.5%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu2 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 45%;
+    left: 20.6%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu2 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+
+#menu2 a:hover {
+    background-color: #f2f2f2;
+}
+
+#boton-superpuesto3 /*CASETA A 2*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 47.5%; 
+    left: 36.5%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu3 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 47.5%;
+    left: 40.8%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu3 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+
+#menu3 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto4 /*ENTRADA PRINCIPAL*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 47.6%; 
+    left: 60.8%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu4 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 47.6%;
+    left: 53.7%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu4 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+
+#menu4 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto5 /*CASETA A 1*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 47.3%; 
+    left: 73.4%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu5 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 49.5%;
+    left: 70.4%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu5 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+
+#menu5 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto6 /*EXTERIOR CASETA A 1*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 42.5%; 
+    left: 74.2%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu6 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 42.5%;
+    left: 67.2%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu6 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu6 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto7 /*VENTILADORES CASETA AA*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 47%; 
+    left: 78%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu7 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 49%;
+    left: 79.9%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu7 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu7 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto8 /*EXTERIOR CASETA B 1*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 61.2%; 
+    left: 8.2%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu8 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 63.5%;
+    left: 8.2%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu8 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu8 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto9 /*CASETA B 4*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 64.8%; 
+    left: 17.4%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu9 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 64.5%;
+    left: 21.7%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu9 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu9 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto10 /*EXTERIOR CASETA B 2*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 74%; 
+    left: 9%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu10 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 74%;
+    left: 16.5%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu10 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu10 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto11 /*CASETA B 3*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 63.5%; 
+    left: 45%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu11 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 63.5%;
+    left: 37.9%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu11 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu11 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto12 /*CASETA B 2*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 63.5%; 
+    left: 50.2%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu12 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 63.5%;
+    left: 54.5%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu12 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu12 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto13 /*CASETA B 1*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 64.2%; 
+    left: 79%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu13 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 64.2%;
+    left: 71.9%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu13 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu13 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto14 /*ENTRADA*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 64.2%; 
+    left: 83.8%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu14 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 66.5%;
+    left: 83.8%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu14 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu14 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto15 /*EXTERIOR CASETA C 3*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 84%; 
+    left: 10.5%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    transform:  rotate(-90deg);
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu15 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 84%;
+    left: 6.8%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu15 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu15 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto16 /*EXTERIOR CASETA C 2*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 90%; 
+    left: 16%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu16 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 91.8%;
+    left: 16%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu16 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu16 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto17 /*CASETA C 1*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 80%; 
+    left: 17.5%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu17 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 80%;
+    left: 21.8%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu17 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu17 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto18 /*CASETA C 1*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 79.5%; 
+    left: 43.5%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu18 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 79.5%;
+    left: 36.4%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu18 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu18 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto19 /*CASETA C 1*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 79.5%; 
+    left: 48.4%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu19 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 79.5%;
+    left: 52.8%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu19 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu19 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto20 /*CASETA C 1*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 79.5%; 
+    left: 74%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu20 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 79.5%;
+    left: 67%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu20 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu20 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto21 /*CASETA C 1*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 90%; 
+    left: 74%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu21 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 90%;
+    left: 67%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu21 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu21 a:hover {
+    background-color: #f2f2f2;
+}
+#boton-superpuesto22 /*CASETA C 1*/ {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.2% 0.2%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 86.5%; 
+    left: 81%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+/* Estilo para el menú */
+#menu22 {
+    display: none;
+    position: absolute;
+    font-size: 0.6vw;
+    top: 89%;
+    left: 82.5%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    font-family: verdana;
+    white-space: nowrap;
+}
+#menu22 a {
+    display: block;
+    padding: 2.5px 2.5px;
+    text-decoration: none;
+    color: #333;
+}
+#menu22 a:hover {
+    background-color: #f2f2f2;
+}
+.texto-superpuesto1 {
+    position: absolute;
+    top: 14%; /* Ajusta la posición superior según tus necesidades */
+    left: 70.2%; /* Ajusta la posición izquierda según tus necesidades */
+    padding: 10px; /* Espacio alrededor del texto */
+    color: #333; /* Color del texto */
+    font-family: verdana;
+    font-size: 0.6vw;
+    z-index: 3;
+    white-space: nowrap;
+}
+.texto-superpuesto2 {
+    position: absolute;
+    top: 14%; /* Ajusta la posición superior según tus necesidades */
+    left: 65%; /* Ajusta la posición izquierda según tus necesidades */
+    padding: 10px; /* Espacio alrededor del texto */
+    color: #333; /* Color del texto */
+    font-family: verdana;
+    font-size: 0.6vw;
+    z-index: 3;
+    white-space: nowrap;
+}
+.texto-superpuesto3 {
+    position: absolute;
+    top: 35%; /* Ajusta la posición superior según tus necesidades */
+    left: 64%; /* Ajusta la posición izquierda según tus necesidades */
+    padding: 10px; /* Espacio alrededor del texto */
+    color: #333; /* Color del texto */
+    font-family: verdana;
+    font-size: 0.6vw;
+    z-index: 3;
+    white-space: nowrap;
+}
+.texto-superpuesto4 {
+    position: absolute;
+    top: 54%; /* Ajusta la posición superior según tus necesidades */
+    left: 72%; /* Ajusta la posición izquierda según tus necesidades */
+    padding: 10px; /* Espacio alrededor del texto */
+    color: #333; /* Color del texto */
+    font-family: verdana;
+    font-size: 0.6vw;
+    z-index: 3;   
+}
+.texto-superpuesto5 {
+    position: absolute;
+    top: 71.5%; /* Ajusta la posición superior según tus necesidades */
+    left: 72%; /* Ajusta la posición izquierda según tus necesidades */
+    padding: 10px; /* Espacio alrededor del texto */
+    color: #333; /* Color del texto */
+    font: 13px verdana;
+    font-size: 0.6vw;
+    z-index: 3;
+}
+.texto-superpuesto6 /*Pagina Principal*/{
+    background-color: #3498db;
+    color: #7217bd;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0px; 
+    left: 5px; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    font-size: 0.6vw;
+    white-space: nowrap;
+}
+.parrafo-especifico {
+    color: black;
+  -webkit-text-stroke: 3px black;
+    position: absolute;
+    top: 52%;
+    left: 45%;
+    font-family: Verdana;
+    font-size: 2vw;
+    z-index: 3;
+    white-space: nowrap;
+}
+.image-container {
+    position: relative;
+    width: 100%; /* El contenedor ocupa el 100% del ancho disponible */
+    height: 100vh; /* El 100% de la altura de la ventana gráfica (viewport) */
+    z-index: 1;
+	overflow: hidden;
+}
+#mapa {
+    position: relative;
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 100%; /* La imagen ocupa el 100% del alto del contenedor */
+    left: 0;
+    top: 0;
+    z-index: 1;
+	transition: transform 0.2s;
+}
+.enlace {
+    position: absolute; 
+    top: 10.8%; 
+    left: 71%; 
+    text-decoration: none; /* Elimina el subrayado por defecto de los enlaces */
+    color: #34db4a; 
+    font-weight: bold; /* Establece el texto en negrita */
+    font-size: 0.9vw; /* Tamaño de fuente del enlace */
+    z-index: 3;
+}
+#mostrar {
+    position: absolute; 
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 5;
+  }
+  #barra-lateral {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: -250px; /* Cambia esto para mostrar/ocultar la barra lateral */
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 5;
+  }
+  #barra-lateral p {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    z-index: 5;
+  }
+  #cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+    z-index: 5;
+  }

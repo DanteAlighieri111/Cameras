@@ -1,0 +1,217 @@
+.texto-superpuesto1 a {
+    /* Estilos para el enlace */
+    position: absolute;
+    display: inline-block;
+    color: #000000; /* Cambia el color del texto del enlace a negro */
+    text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+    cursor: pointer;
+    font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    top: 57.5%; /* Coloca el enlace en el centro verticalmente */
+    left: 86%; /* Coloca el enlace en el centro horizontalmente */
+     /* Centra el enlace exactamente en el centro */
+    z-index: 3;
+    white-space: nowrap;
+    font-family: verdana;
+    
+    transition: 300ms; /* Agregamos una transición */
+}
+.texto-superpuesto1:hover {
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr; /* Propiedades del grid al pasar el cursor */
+    padding: 2.5px 2.5px; /* Propiedades del botón al pasar el cursor */
+    top: 57.5%;
+    left: 86%;
+    white-space: nowrap;
+    z-index: 3;
+}
+.texto-superpuesto2 a {
+    /* Estilos para el enlace */
+    position: absolute;
+    display: inline-block;
+    color: #000000; /* Cambia el color del texto del enlace a negro */
+    text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+    cursor: pointer;
+    font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    top: 92%; /* Coloca el enlace en el centro verticalmente */
+    left: 61.5%; /* Coloca el enlace en el centro horizontalmente */
+    transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
+    z-index: 3;
+    font-family: verdana;
+    transition: 300ms; /* Agregamos una transición */
+}
+.texto-superpuesto2:hover {
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr; /* Propiedades del grid al pasar el cursor */
+    padding: 2.5px 2.5px; /* Propiedades del botón al pasar el cursor */
+    top: 92%;
+    left: 61.5%;
+    z-index: 3;
+}
+ /*820,480*/
+.texto-superpuesto3 a {
+    /* Estilos para el enlace */
+    position: absolute;
+    display: inline-block;
+    color: #000000; /* Cambia el color del texto del enlace a negro */
+    text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+    cursor: pointer;
+    font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    top: 94%; /* Coloca el enlace en el centro verticalmente */
+    left: 36%; /* Coloca el enlace en el centro horizontalmente */
+    transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
+    z-index: 3;
+    font-family: verdana;
+    transition: 300ms; /* Agregamos una transición */
+}
+.texto-superpuesto3:hover {
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr; /* Propiedades del grid al pasar el cursor */
+    padding: 2.5px 2.5px; /* Propiedades del botón al pasar el cursor */
+    top: 94%;
+    left: 36%;
+    white-space: nowrap;
+    z-index: 3;
+}
+.texto-superpuesto4 a {
+    /* Estilos para el enlace */
+    position: absolute;
+    display: inline-block;
+    color: #000000; /* Cambia el color del texto del enlace a negro */
+    text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+    cursor: pointer;
+    font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    top: 87%; /* Coloca el enlace en el centro verticalmente */
+    left: 12%; /* Coloca el enlace en el centro horizontalmente */
+    transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
+    z-index: 3;
+    font-family: verdana;
+    white-space: nowrap;
+    transition: 300ms; /* Agregamos una transición */
+}
+.texto-superpuesto4:hover {
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr; /* Propiedades del grid al pasar el cursor */
+    padding: 2.5px 2.5px; /* Propiedades del botón al pasar el cursor */
+    top: 87%;
+    left: 12%;
+    z-index: 3;
+}
+.texto-superpuesto5 a {
+    /* Estilos para el enlace */
+    position: absolute;
+    display: inline-block;
+    color: #000000; /* Cambia el color del texto del enlace a negro */
+    text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+    cursor: pointer;
+    font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    top: 79%; /* Coloca el enlace en el centro verticalmente */
+    left: 4%; /* Coloca el enlace en el centro horizontalmente */
+    transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
+    z-index: 3;
+    white-space: nowrap;
+    font-family: verdana;
+    
+    transition: 300ms; /* Agregamos una transición */
+}
+.texto-superpuesto5:hover {
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr; /* Propiedades del grid al pasar el cursor */
+    padding: 2.5px 2.5px; /* Propiedades del botón al pasar el cursor */
+    top: 79%;
+    left: 4%;
+    z-index: 3;
+}
+.image-container {
+    position: relative;
+    width: 100%; /* El contenedor ocupa el 100% del ancho disponible */
+    height: 100vh; /* El 100% de la altura de la ventana gráfica (viewport) */
+    z-index: 1;
+	overflow: hidden;
+}
+#mapa {
+    position: relative;
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 100%; /* La imagen ocupa el 100% del alto del contenedor */
+    left: 0;
+    top: 0;
+    z-index: 1;
+	transition: transform 0.2s;
+}
+.texto-superpuesto6 {
+    /* Estilos para el enlace */
+    position: absolute;
+	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
+    text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+    font-size: 1.6vw; /* Tamaño de fuente del enlace */
+	top: 15%;
+	left: 72%;
+	transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
+	z-index: 3;
+	font-family: verdana;
+	white-space: nowrap;
+}
+.texto-superpuesto7 {
+    /* Estilos para el enlace */
+    position: absolute;
+	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
+    text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+    font-size: 1.6vw; /* Tamaño de fuente del enlace */
+	top: 28%;
+	left: 48.5%;
+	transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
+	z-index: 3;
+	font-family: verdana;
+	white-space: nowrap;	
+}
+.texto-superpuesto8 {
+    /* Estilos para el enlace */
+    position: absolute;
+	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
+    text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+    font-size: 1.6vw; /* Tamaño de fuente del enlace */
+	top: 14%;
+	left: 89%;
+	transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
+	z-index: 3;
+	font-family: verdana;
+	white-space: nowrap;
+}
+.texto-superpuesto9 {
+    /* Estilos para el enlace */
+    position: absolute;
+	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
+    text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+    font-size: 1.6vw; /* Tamaño de fuente del enlace */
+	top: 39%;
+	left: 52.5%;
+	transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
+	z-index: 3;
+	font-family: verdana;
+	white-space: nowrap;
+}
+.texto-superpuesto10 {
+    /* Estilos para el enlace */
+    position: absolute;
+	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
+    text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+    font-size: 1.6vw; /* Tamaño de fuente del enlace */
+	top: 55%;
+	left: 5.5%;
+	transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
+	z-index: 3;
+	font-family: verdana;
+	white-space: nowrap;
+}
+.texto-superpuesto11 {
+    /* Estilos para el enlace */
+    position: absolute;
+	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
+    text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+    font-size: 1.6vw; /* Tamaño de fuente del enlace */
+	top: 12%;
+	left: 4.5%;
+	transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
+	z-index: 3;
+	font-family: verdana;
+	white-space: nowrap;
+}

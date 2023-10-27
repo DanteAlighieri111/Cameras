@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#mostrar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+#barra-lateral {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: -250px; /* Cambia esto para mostrar/ocultar la barra lateral */
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+#barra-lateral p {
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+#cerrar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  cursor: pointer;
+}
