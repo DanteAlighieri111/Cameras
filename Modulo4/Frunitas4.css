@@ -720,12 +720,15 @@
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 10px; 
-    left: 5px; 
+    top: 9px; 
+    left: 9px; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-size: 0.7vw;
     font-family: verdana;
     white-space: nowrap;
+}
+.imagen-link {
+    width: 1.8vw; /* Ancho deseado en píxeles */
+    height: 1.8vw; /* Alto deseado en píxeles */
 }
 .parrafo-especifico {
     color: black;

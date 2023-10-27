@@ -1,6 +1,6 @@
 // Obtén los elementos relevantes
 // Define una función para mostrar/ocultar el menú y cambiar la clase del contenedor
-document.getElementById("mostrar").addEventListener("click", function() {
+/*document.getElementById("mostrar").addEventListener("click", function() {
     document.getElementById("barra-lateral").style.width = "800px";
     document.getElementById("barra-lateral").style.right = "0";
   });
@@ -8,7 +8,7 @@ document.getElementById("mostrar").addEventListener("click", function() {
   document.getElementById("cerrar").addEventListener("click", function() {
     document.getElementById("barra-lateral").style.width = "0";
     document.getElementById("barra-lateral").style.right = "-250px";
-  });
+  }); */
 function toggleMenu(buttonId, menuId) {
     const botonSuperpuesto = document.getElementById(buttonId);
     const menu = document.getElementById(menuId);

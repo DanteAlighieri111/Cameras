@@ -289,10 +289,13 @@ nav{
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 0px; 
-    left: 5px; 
+    top: 10px; 
+    left: 10px; 
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
-    font-size: 0.6vw;
     white-space: nowrap;
+}
+.imagen-link {
+    width: 1.8vw; /* Ancho deseado en píxeles */
+    height: 1.8vw; /* Alto deseado en píxeles */
 }
