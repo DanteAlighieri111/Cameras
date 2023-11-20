@@ -2,37 +2,30 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
 }
-
-#mostrar {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+.imagen {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  overflow: hidden;
   cursor: pointer;
 }
-
-#barra-lateral {
+.imagen img {
+  width: 100%;
   height: 100%;
-  width: 0;
-  position: fixed;
-  top: 0;
-  right: -250px; /* Cambia esto para mostrar/ocultar la barra lateral */
-  background-color: #333;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
-
-#barra-lateral p {
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
-
-#cerrar {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  color: white;
-  cursor: pointer;
+.imagen:hover img {
+  transform: scale(1.1);
 }

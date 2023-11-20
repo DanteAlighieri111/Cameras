@@ -1,15 +1,25 @@
+<!-- pagina1.html -->
+
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <link rel="stylesheet" type="text/css" href="Pruebas.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1</title>
 </head>
 <body>
-    <button id="mostrar">Mostrar Barra Lateral</button>
-    <div id="barra-lateral">
-        <button id="cerrar">Cerrar</button>
-        <!-- Contenido de la barra lateral -->
-        <p>Contenido de la barra lateral</p>
-    </div>
-    <script src="script.js"></script>
+
+    <button onclick="cargarPagina('CASETA A.png')">Visualización Cámara</button>
+    <button onclick="cargarImagen('..\Modulo1\Materiales\Visualización Ubicacion Cámaras\EXTERIOR CASETA A2.png')">Ubicacion Cámara</button>
+    <!-- Agrega más botones aquí -->
+    
+    <script>
+
+        function cargarImagen(imagenURL) {
+            // Redirige a la página externa y pasa la URL de la imagen como parámetro
+            window.location.href = 'pagina-externa.html?imagen=' + encodeURIComponent(imagenURL);
+        }
+    </script>
+
 </body>
 </html>

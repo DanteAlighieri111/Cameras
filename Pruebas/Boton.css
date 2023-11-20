@@ -7,17 +7,17 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 24%; /* Ajusta la posición superior según tus necesidades */
-    left: 10%; /* Ajusta la posición izquierda según tus necesidades */
-    z-index: 4; /* Coloca el botón por encima del contenido */
+    top: 42%; /* Ajusta la posición superior según tus necesidades */
+    left: 30%; /* Ajusta la posición izquierda según tus necesidades */
+    z-index: 5; /* Coloca el botón por encima del contenido */
     font-family: verdana;
 }
 /* Estilo para el menú */
 #menu1 {
     display: none;
     position: absolute;
-    top: 24%;
-    left: 19.5%;
+    top: 42%;
+    left: 37.5%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     font-size: 0.6vw;
@@ -42,9 +42,9 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 27.8%; 
-    left: 8.3%; 
-    z-index: 5; /* Coloca el botón por encima del contenido */
+    top: 45%; 
+    left: 27.5%; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
 }
@@ -53,11 +53,11 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 27.8%;
-    left: 16.3%;
+    top: 45%;
+    left: 20.6%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    z-index: 4;
+    z-index: 2;
     font-family: verdana;
     white-space: nowrap;
 }
@@ -67,9 +67,11 @@
     text-decoration: none;
     color: #333;
 }
+
 #menu2 a:hover {
     background-color: #f2f2f2;
 }
+
 #boton-superpuesto3 /*CASETA A 2*/ {
     background-color: #3498db;
     color: #fff;
@@ -78,8 +80,8 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 31.3%; 
-    left: 17.8%; 
+    top: 47.5%; 
+    left: 36.5%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
@@ -89,8 +91,8 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 31.3%;
-    left: 11%;
+    top: 47.5%;
+    left: 40.8%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -115,10 +117,10 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 31%; 
-    left: 34.5%; 
+    top: 47.6%; 
+    left: 60.8%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 /* Estilo para el menú */
@@ -126,12 +128,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 31%;
-    left: 27.5%;
+    top: 47.6%;
+    left: 53.7%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu4 a {
@@ -152,10 +154,10 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 31%; 
-    left: 43%; 
+    top: 47.3%; 
+    left: 73.4%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 /* Estilo para el menú */
@@ -163,12 +165,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 31%;
-    left: 52%;
+    top: 49.5%;
+    left: 70.4%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu5 a {
@@ -189,10 +191,10 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 31%; 
-    left: 63.5%; 
+    top: 42.5%; 
+    left: 74.2%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 /* Estilo para el menú */
@@ -200,12 +202,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 31%;
-    left: 56.5%;
+    top: 42.5%;
+    left: 67.2%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu6 a {
@@ -225,10 +227,10 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 24.3%; 
-    left: 60%; 
+    top: 47%; 
+    left: 78%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 /* Estilo para el menú */
@@ -236,12 +238,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 24.3%;
-    left: 53%;
+    top: 49%;
+    left: 79.9%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu7 a {
@@ -261,10 +263,10 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 26.3%; 
-    left: 70.3%; 
+    top: 61.2%; 
+    left: 8.2%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 /* Estilo para el menú */
@@ -272,12 +274,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 26.3%;
-    left: 77.2%;
+    top: 63.5%;
+    left: 8.2%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu8 a {
@@ -297,10 +299,10 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 53%; 
-    left: 18%; 
+    top: 64.8%; 
+    left: 17.4%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 /* Estilo para el menú */
@@ -308,12 +310,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 53%;
-    left: 11%;
+    top: 64.5%;
+    left: 21.7%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu9 a {
@@ -333,10 +335,10 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 60%; 
-    left: 8.5%; 
+    top: 74%; 
+    left: 9%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 /* Estilo para el menú */
@@ -344,12 +346,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 60%;
-    left: 1.7%;
+    top: 74%;
+    left: 16.5%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu10 a {
@@ -369,10 +371,10 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 65.5%; 
-    left: 8.5%; 
+    top: 63.5%; 
+    left: 45%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 /* Estilo para el menú */
@@ -380,12 +382,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 65.5%;
-    left: 18%;
+    top: 63.5%;
+    left: 37.9%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu11 a {
@@ -405,10 +407,10 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 53%; 
-    left: 34%; 
+    top: 63.5%; 
+    left: 50.2%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 /* Estilo para el menú */
@@ -416,12 +418,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 53%;
-    left: 27%;
+    top: 63.5%;
+    left: 54.5%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu12 a {
@@ -441,10 +443,10 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 53%; 
-    left: 43%; 
+    top: 64.2%; 
+    left: 79%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 /* Estilo para el menú */
@@ -452,12 +454,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 53%;
-    left: 52%;
+    top: 64.2%;
+    left: 71.9%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu13 a {
@@ -477,10 +479,10 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 53%; 
-    left: 63.6%; 
+    top: 64.2%; 
+    left: 83.8%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 /* Estilo para el menú */
@@ -488,12 +490,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 53%;
-    left: 70.3%;
+    top: 66.5%;
+    left: 83.8%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu14 a {
@@ -513,10 +515,11 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 60%; 
-    left: 70.5%; 
+    top: 84%; 
+    left: 10.5%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
-    font-family: Verdana;
+    transform:  rotate(-90deg);
+    font-family: verdana;
     white-space: nowrap;
 }
 /* Estilo para el menú */
@@ -524,12 +527,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 60%;
-    left: 77.4%;
+    top: 84%;
+    left: 6.8%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu15 a {
@@ -549,8 +552,8 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 66%; 
-    left: 68%; 
+    top: 90%; 
+    left: 16%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
@@ -560,12 +563,12 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 66%;
-    left: 78%;
+    top: 91.8%;
+    left: 16%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    font-family: Verdana;
+    font-family: verdana;
     white-space: nowrap;
 }
 #menu16 a {
@@ -585,8 +588,8 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 83%; 
-    left: 10%; 
+    top: 80%; 
+    left: 17.5%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
@@ -596,8 +599,8 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 83%;
-    left: 18%;
+    top: 80%;
+    left: 21.8%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -621,8 +624,8 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 72%; 
-    left: 14.5%; 
+    top: 79.5%; 
+    left: 43.5%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
@@ -632,8 +635,8 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 72%;
-    left: 20.8%;
+    top: 79.5%;
+    left: 36.4%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -657,8 +660,8 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 72%; 
-    left: 37.5%; 
+    top: 79.5%; 
+    left: 48.4%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
@@ -668,8 +671,8 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 72%;
-    left: 30.7%;
+    top: 79.5%;
+    left: 52.8%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -693,8 +696,8 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 83%; 
-    left: 44%; 
+    top: 79.5%; 
+    left: 74%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
@@ -704,8 +707,8 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 83%;
-    left: 51.4%;
+    top: 79.5%;
+    left: 67%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -729,8 +732,8 @@
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
-    top: 40%; 
-    left: 80.7%; 
+    top: 90%; 
+    left: 74%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
@@ -740,8 +743,8 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 40%;
-    left: 89.3%;
+    top: 90%;
+    left: 67%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -764,7 +767,7 @@
     border: none;
     cursor: pointer;
     position: absolute;
-    font-size: 0.7vw;
+    font-size: 0.6vw;
     top: 86.5%; 
     left: 81%; 
     z-index: 3; /* Coloca el botón por encima del contenido */
@@ -775,7 +778,7 @@
 #menu22 {
     display: none;
     position: absolute;
-    font-size: 0.7vw;
+    font-size: 0.6vw;
     top: 89%;
     left: 82.5%;
     background-color: #fff;
@@ -793,64 +796,68 @@
 #menu22 a:hover {
     background-color: #f2f2f2;
 }
-.image-container {
-    position: relative;
-    width: 100%; /* El contenedor ocupa el 100% del ancho disponible */
-    height: 100vh; /* El 100% de la altura de la ventana gráfica (viewport) */
-    z-index: 1;
-	overflow: hidden;
-}
-
-#mapa {
-    position: relative;
-    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
-    height: 100%; /* La imagen ocupa el 100% del alto del contenedor */
-    left: 0;
-    top: 0;
-    z-index: 1;
-	transition: transform 0.2s;
-}
-.enlace {
-    position: absolute; /* Posición absoluta */
-    top: 40.8%; /* Cambia la posición superior según tus necesidades */
-    left: 74.7%; /* Cambia la posición izquierda según tus necesidades */
-    text-decoration: none; /* Elimina el subrayado por defecto de los enlaces */
-    color: #34db4a; /* Cambia el color del texto del enlace */
-    font-weight: bold; /* Establece el texto en negrita */
-    font-size: 0.7vw;
-    z-index: 3;
-    white-space: nowrap;
-}
 .texto-superpuesto1 {
     position: absolute;
-    top: 45%; /* Ajusta la posición superior según tus necesidades */
-    left: 74%; /* Ajusta la posición izquierda según tus necesidades */
+    top: 14%; /* Ajusta la posición superior según tus necesidades */
+    left: 70.2%; /* Ajusta la posición izquierda según tus necesidades */
+    padding: 10px; /* Espacio alrededor del texto */
     color: #333; /* Color del texto */
-    font-size: 0.6vw;
     font-family: verdana;
+    font-size: 0.6vw;
     z-index: 3;
     white-space: nowrap;
 }
 .texto-superpuesto2 {
     position: absolute;
-    top: 82.5%; /* Ajusta la posición superior según tus necesidades */
-    left: 79.8%; /* Ajusta la posición izquierda según tus necesidades */
+    top: 14%; /* Ajusta la posición superior según tus necesidades */
+    left: 65%; /* Ajusta la posición izquierda según tus necesidades */
     padding: 10px; /* Espacio alrededor del texto */
     color: #333; /* Color del texto */
-    font-size: 0.7vw;
     font-family: verdana;
+    font-size: 0.6vw;
     z-index: 3;
     white-space: nowrap;
 }
-.texto-superpuesto3 /*Pagina Principal*/{
+.texto-superpuesto3 {
+    position: absolute;
+    top: 35%; /* Ajusta la posición superior según tus necesidades */
+    left: 64%; /* Ajusta la posición izquierda según tus necesidades */
+    padding: 10px; /* Espacio alrededor del texto */
+    color: #333; /* Color del texto */
+    font-family: verdana;
+    font-size: 0.6vw;
+    z-index: 3;
+    white-space: nowrap;
+}
+.texto-superpuesto4 {
+    position: absolute;
+    top: 54%; /* Ajusta la posición superior según tus necesidades */
+    left: 72%; /* Ajusta la posición izquierda según tus necesidades */
+    padding: 10px; /* Espacio alrededor del texto */
+    color: #333; /* Color del texto */
+    font-family: verdana;
+    font-size: 0.6vw;
+    z-index: 3;   
+}
+.texto-superpuesto5 {
+    position: absolute;
+    top: 71.5%; /* Ajusta la posición superior según tus necesidades */
+    left: 72%; /* Ajusta la posición izquierda según tus necesidades */
+    padding: 10px; /* Espacio alrededor del texto */
+    color: #333; /* Color del texto */
+    font: 13px verdana;
+    font-size: 0.6vw;
+    z-index: 3;
+}
+.texto-superpuesto6 /*Pagina Principal*/{
     background-color: #3498db;
     color: #7217bd;
     padding: 5px 5px;
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 8px; 
-    left: 9px; 
+    top: 0px; 
+    left: 0px; 
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
@@ -859,15 +866,15 @@
     width: 1.8vw; /* Ancho deseado en píxeles */
     height: 1.8vw; /* Alto deseado en píxeles */
 }
-.texto-superpuesto4 /*Pagina Principal*/{
+.texto-superpuesto7 /*Pagina Principal*/{
     background-color: #3498db;
     color: #7217bd;
     padding: 5px 5px;
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 8px; 
-    left: 55px; 
+    top: 0px; 
+    left: 46px; 
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
@@ -880,9 +887,69 @@
     color: black;
   -webkit-text-stroke: 3px black;
     position: absolute;
-    top: 40%;
-    left: 40%;
-    font-size: 2vw;
+    top: 52%;
+    left: 45%;
     font-family: Verdana;
+    font-size: 2vw;
+    z-index: 3;
+    white-space: nowrap;
+}
+.image-container {
+    position: relative;
+    width: 100%; /* El contenedor ocupa el 100% del ancho disponible */
+    height: 100vh; /* El 100% de la altura de la ventana gráfica (viewport) */
+    z-index: 1;
+	overflow: hidden;
+}
+#mapa {
+    position: relative;
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 100%; /* La imagen ocupa el 100% del alto del contenedor */
+    left: 0;
+    top: 0;
+    z-index: 1;
+	transition: transform 0.2s;
+}
+.enlace {
+    position: absolute; 
+    top: 10.8%; 
+    left: 71%; 
+    text-decoration: none; /* Elimina el subrayado por defecto de los enlaces */
+    color: #34db4a; 
+    font-weight: bold; /* Establece el texto en negrita */
+    font-size: 0.9vw; /* Tamaño de fuente del enlace */
     z-index: 3;
 }
+#mostrar {
+    position: absolute; 
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 5;
+  }
+  #barra-lateral {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: -250px; /* Cambia esto para mostrar/ocultar la barra lateral */
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 5;
+  }
+  #barra-lateral p {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    z-index: 5;
+  }
+  #cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+    z-index: 5;
+  }

@@ -730,6 +730,23 @@
     width: 1.8vw; /* Ancho deseado en píxeles */
     height: 1.8vw; /* Alto deseado en píxeles */
 }
+.texto-superpuesto2 /*Pagina Principal*/{
+    background-color: #3498db;
+    color: #7217bd;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 9px; 
+    left: 55px; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+.imagen-link {
+    width: 1.8vw; /* Ancho deseado en píxeles */
+    height: 1.8vw; /* Alto deseado en píxeles */
+}
 .parrafo-especifico {
     color: black;
   -webkit-text-stroke: 3px black;

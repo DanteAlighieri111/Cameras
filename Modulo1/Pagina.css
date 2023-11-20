@@ -1,0 +1,42 @@
+.image-container {
+    position: relative;
+    width: 100%; /* El contenedor ocupa el 100% del ancho disponible */
+    height: 100%; /* El 100% de la altura de la ventana gráfica (viewport) */
+    z-index: 1;
+	overflow: hidden;
+}
+.Clase /*Pagina Principal*/{
+    background-color: #3498db;
+    color: #7217bd;
+    padding: 1px 1px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 8px; 
+    left: 8px; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+.imagen-link {
+    width: 1.8vw; /* Ancho deseado en píxeles */
+    height: 1.8vw; /* Alto deseado en píxeles */
+}
+
+#contenedor-imagen {
+    position: relative;
+    width: 100%; /* El contenedor ocupa el 100% del ancho disponible */
+    height: 100vh; /* El 100% de la altura de la ventana gráfica (viewport) */
+    z-index: 1;
+	overflow: hidden;
+}
+
+#contenedor-imagen img { 
+    position: relative;
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 100%; /* La imagen ocupa el 100% del alto del contenedor */
+    left: 0;
+    top: 0;
+    z-index: 1;
+	transition: transform 0.2s;
+}

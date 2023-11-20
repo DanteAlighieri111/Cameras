@@ -9,18 +9,6 @@
     document.getElementById("barra-lateral").style.width = "0";
     document.getElementById("barra-lateral").style.right = "-250px";
   }); */
-
-function cargarPagina(paginaURL) {
-  // Redirige a la página externa
-  window.location.href = paginaURL;
-}
-
-function cargarImagen(imagenURL) {
-  // Redirige a la página externa y pasa la URL de la imagen como parámetro
-  window.location.href = 'pagina-externa.html?imagen=' + encodeURIComponent(imagenURL);
-}
-
-
 function toggleMenu(buttonId, menuId) {
     const botonSuperpuesto = document.getElementById(buttonId);
     const menu = document.getElementById(menuId);
