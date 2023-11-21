@@ -1,15 +1,3 @@
-// Obtén los elementos relevantes
-// Define una función para mostrar/ocultar el menú y cambiar la clase del contenedor
-/*document.getElementById("mostrar").addEventListener("click", function() {
-    document.getElementById("barra-lateral").style.width = "800px";
-    document.getElementById("barra-lateral").style.right = "0";
-  });
-  
-  document.getElementById("cerrar").addEventListener("click", function() {
-    document.getElementById("barra-lateral").style.width = "0";
-    document.getElementById("barra-lateral").style.right = "-250px";
-  }); */
-
 function cargarPagina(paginaURL) {
   // Redirige a la página externa
   window.location.href = paginaURL;
@@ -18,6 +6,28 @@ function cargarPagina(paginaURL) {
 function cargarImagen(imagenURL) {
   // Redirige a la página externa y pasa la URL de la imagen como parámetro
   window.location.href = 'pagina-externa.html?imagen=' + encodeURIComponent(imagenURL);
+}
+
+function UbicacionImagen(imagenURL) {
+  // Redirige a la página externa y pasa la URL de la imagen como parámetro
+  window.location.href = 'pagina-externa.html?imagen=' + encodeURIComponent(imagenURL);
+}
+
+// Función para obtener parámetros de la URL
+function obtenerParametroURL(nombre) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(nombre);
+}
+// Obtén la URL de la imagen de los parámetros
+const imagenURL = obtenerParametroURL('imagen');
+
+if (imagenURL) {
+    // Crea un elemento de imagen y establece la fuente
+    const imagen = document.createElement('img');
+    imagen.src = imagenURL;
+
+    // Agrega la imagen al contenedor
+    document.getElementById('contenedor-imagen').appendChild(imagen);
 }
 
 
@@ -30,7 +40,6 @@ function toggleMenu(buttonId, menuId) {
         botonSuperpuesto.parentElement.classList.toggle('mostrar-menu');
     });
 }
-
 // Llama a la función para cada par de botón y menú
 toggleMenu('boton-superpuesto1', 'menu1');
 toggleMenu('boton-superpuesto2', 'menu2');

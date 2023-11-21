@@ -29,9 +29,6 @@
     font-size: 0.6vw;   
     color: #333;
 }
-#menu1 a:hover {
-    background-color: #f2f2f2;
-}
 #boton-superpuesto2 /*EXTERIOR CASETA A3*/ {
     background-color: #3498db;
     color: #fff;
@@ -52,7 +49,7 @@
     position: absolute;
     font-size: 0.6vw;
     top: 45%;
-    left: 20%;
+    left: 19.6%;
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -63,11 +60,6 @@
     text-decoration: none;
     color: #333;
 }
-
-#menu2 a:hover {
-    background-color: #f2f2f2;
-}
-
 #boton-superpuesto3 /*CASETA A 2*/ {
     background-color: #3498db;
     color: #fff;
@@ -99,10 +91,6 @@
     text-decoration: none;
     color: #333;
 }
-
-#menu3 a:hover {
-    background-color: #f2f2f2;
-}
 #boton-superpuesto4 /*ENTRADA PRINCIPAL*/ {
     background-color: #3498db;
     color: #fff;
@@ -124,7 +112,6 @@
     font-size: 0.6vw;
     top: 47.6%;
     left: 53%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -134,10 +121,6 @@
     padding: 2.5px 2.5px;
     text-decoration: none;
     color: #333;
-}
-
-#menu4 a:hover {
-    background-color: #f2f2f2;
 }
 #boton-superpuesto5 /*CASETA A 1*/ {
     background-color: #3498db;
@@ -160,7 +143,6 @@
     font-size: 0.6vw;
     top: 49.5%;
     left: 70.4%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -170,10 +152,6 @@
     padding: 2.5px 2.5px;
     text-decoration: none;
     color: #333;
-}
-
-#menu5 a:hover {
-    background-color: #f2f2f2;
 }
 #boton-superpuesto6 /*EXTERIOR CASETA A 1*/ {
     background-color: #3498db;
@@ -196,8 +174,6 @@
     font-size: 0.6vw;
     top: 42.5%;
     left: 66.5%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -207,9 +183,6 @@
     padding: 2.5px 2.5px;
     text-decoration: none;
     color: #333;
-}
-#menu6 a:hover {
-    background-color: #f2f2f2;
 }
 #boton-superpuesto7 /*VENTILADORES CASETA AA*/ {
     background-color: #3498db;
@@ -232,8 +205,6 @@
     font-size: 0.6vw;
     top: 49%;
     left: 79.9%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -243,9 +214,6 @@
     padding: 2.5px 2.5px;
     text-decoration: none;
     color: #333;
-}
-#menu7 a:hover {
-    background-color: #f2f2f2;
 }
 #boton-superpuesto8 /*EXTERIOR CASETA B 1*/ {
     background-color: #3498db;
@@ -268,8 +236,6 @@
     font-size: 0.6vw;
     top: 63.5%;
     left: 8.2%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -279,9 +245,6 @@
     padding: 2.5px 2.5px;
     text-decoration: none;
     color: #333;
-}
-#menu8 a:hover {
-    background-color: #f2f2f2;
 }
 #boton-superpuesto9 /*CASETA B 4*/ {
     background-color: #3498db;
@@ -302,10 +265,8 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 64.5%;
+    top: 64.8%;
     left: 21.7%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -315,9 +276,6 @@
     padding: 2.5px 2.5px;
     text-decoration: none;
     color: #333;
-}
-#menu9 a:hover {
-    background-color: #f2f2f2;
 }
 #boton-superpuesto10 /*EXTERIOR CASETA B 2*/ {
     background-color: #3498db;
@@ -340,8 +298,6 @@
     font-size: 0.6vw;
     top: 74%;
     left: 16.5%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -351,9 +307,6 @@
     padding: 2.5px 2.5px;
     text-decoration: none;
     color: #333;
-}
-#menu10 a:hover {
-    background-color: #f2f2f2;
 }
 #boton-superpuesto11 /*CASETA B 3*/ {
     background-color: #3498db;
@@ -375,9 +328,7 @@
     position: absolute;
     font-size: 0.6vw;
     top: 63.5%;
-    left: 37.9%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    left: 37%;
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -387,9 +338,6 @@
     padding: 2.5px 2.5px;
     text-decoration: none;
     color: #333;
-}
-#menu11 a:hover {
-    background-color: #f2f2f2;
 }
 #boton-superpuesto12 /*CASETA B 2*/ {
     background-color: #3498db;
@@ -412,8 +360,6 @@
     font-size: 0.6vw;
     top: 63.5%;
     left: 54.5%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -423,9 +369,6 @@
     padding: 2.5px 2.5px;
     text-decoration: none;
     color: #333;
-}
-#menu12 a:hover {
-    background-color: #f2f2f2;
 }
 #boton-superpuesto13 /*CASETA B 1*/ {
     background-color: #3498db;
@@ -447,9 +390,7 @@
     position: absolute;
     font-size: 0.6vw;
     top: 64.2%;
-    left: 71.9%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    left: 71%;
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -459,9 +400,6 @@
     padding: 2.5px 2.5px;
     text-decoration: none;
     color: #333;
-}
-#menu13 a:hover {
-    background-color: #f2f2f2;
 }
 #boton-superpuesto14 /*ENTRADA*/ {
     background-color: #3498db;
@@ -484,8 +422,6 @@
     font-size: 0.6vw;
     top: 66.5%;
     left: 83.8%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -495,9 +431,6 @@
     padding: 2.5px 2.5px;
     text-decoration: none;
     color: #333;
-}
-#menu14 a:hover {
-    background-color: #f2f2f2;
 }
 #boton-superpuesto15 /*EXTERIOR CASETA C 3*/ {
     background-color: #3498db;
@@ -520,9 +453,7 @@
     position: absolute;
     font-size: 0.6vw;
     top: 84%;
-    left: 6.8%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    left: 5.7%;
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -555,10 +486,8 @@
     display: none;
     position: absolute;
     font-size: 0.6vw;
-    top: 91.8%;
+    top: 92.5%;
     left: 16%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -593,8 +522,6 @@
     font-size: 0.6vw;
     top: 80%;
     left: 21.8%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -628,9 +555,7 @@
     position: absolute;
     font-size: 0.6vw;
     top: 79.5%;
-    left: 36.4%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    left: 35%;
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -665,8 +590,6 @@
     font-size: 0.6vw;
     top: 79.5%;
     left: 52.8%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -700,9 +623,7 @@
     position: absolute;
     font-size: 0.6vw;
     top: 79.5%;
-    left: 67%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    left: 66%;
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -736,9 +657,7 @@
     position: absolute;
     font-size: 0.6vw;
     top: 90%;
-    left: 67%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    left: 66%;
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -773,8 +692,6 @@
     font-size: 0.6vw;
     top: 89%;
     left: 82.5%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
     font-family: verdana;
     white-space: nowrap;
@@ -784,9 +701,6 @@
     padding: 2.5px 2.5px;
     text-decoration: none;
     color: #333;
-}
-#menu22 a:hover {
-    background-color: #f2f2f2;
 }
 .texto-superpuesto1 {
     position: absolute;
@@ -911,37 +825,10 @@
     font-weight: bold; /* Establece el texto en negrita */
     font-size: 0.9vw; /* Tamaño de fuente del enlace */
     z-index: 3;
+} 
+.visualizacion{
+    font-size: 0.7vw;
 }
-#mostrar {
-    position: absolute; 
-    top: 10px;
-    left: 10px;
-    cursor: pointer;
-    z-index: 5;
-  }
-  #barra-lateral {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    top: 0;
-    right: -250px; /* Cambia esto para mostrar/ocultar la barra lateral */
-    background-color: #333;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    z-index: 5;
-  }
-  #barra-lateral p {
-    color: white;
-    text-align: center;
-    padding: 15px;
-    z-index: 5;
-  }
-  #cerrar {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: white;
-    cursor: pointer;
-    z-index: 5;
-  }
+.Ubicacion{
+    font-size: 0.7vw;
+}

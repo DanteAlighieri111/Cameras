@@ -9,32 +9,14 @@
     <title>Pagina Cámaras</title>
 </head>
 <body>
-
+    
     <div id="contenedor-imagen"></div>
     <div class="Clase">
         <a href="..\Modulo1\Frunas.html">
         <img class="imagen-link" src="..\Recursos del proyecto\Boton de regreso.png" alt="Icono de regreso">
         </a>
-        </div>
+    </div>
 
-    <script>
-        // Función para obtener parámetros de la URL
-        function obtenerParametroURL(nombre) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(nombre);
-        }
-        // Obtén la URL de la imagen de los parámetros
-        const imagenURL = obtenerParametroURL('imagen');
-
-        if (imagenURL) {
-            // Crea un elemento de imagen y establece la fuente
-            const imagen = document.createElement('img');
-            imagen.src = imagenURL;
-
-            // Agrega la imagen al contenedor
-            document.getElementById('contenedor-imagen').appendChild(imagen);
-        }
-    </script>
-
+<script src="script.js"></script>
 </body>
 </html>

@@ -5,201 +5,181 @@
     <link rel="stylesheet" href="Boton.css">
     <title>Pagina Cámaras</title>
 </head>
-<body> 
-    <!--
-    <button id="mostrar">Mostrar Barra Lateral</button>
-    <div id="barra-lateral">
-        <button id="cerrar">Cerrar</button>
-        !-- Contenido de la barra lateral --
-        <img src="..\Modulo1\Materiales\Visualización Cámaras\EXTERIOR CASETA A 2.png" alt="Img" id="barra">
-    </div>
--->
-<!-- Agrega más botones aquí -->
-<script>
-    function cargarPagina(paginaURL) {
-        // Redirige a la página externa
-        window.location.href = paginaURL;
-    }
-
-    function cargarImagen(imagenURL) {
-        // Redirige a la página externa y pasa la URL de la imagen como parámetro
-        window.location.href = 'pagina-externa.html?imagen=' + encodeURIComponent(imagenURL);
-    }
-</script>
+<body>
     <div class="contenedor">
         <button id="boton-superpuesto1" >EXTERIOR CASETA A 2</button>
         <div id="menu1" class="menu">
-        <button onclick="cargarImagen('EXTERIOR CASETA A 2.png')">Visualización Cámara</button>
+        <button id="Visualizacion1" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA A 2.png')">Visualización Cámara</button>
         <br>
-        <button onclick="cargarImagen('CASETA A.png')">Ubicacion Cámara</button>
+        <button id="Ubicacion1" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A2.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto2" >EXTERIOR CASETA A3</button>
         <div id="menu2" class="menu">
-        <button onclick="cargarImagen('EXTERIOR CASETA A 3.png')">Visualización Cámara</button>
+        <button id="Visualizacion2" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA A 3.png')">Visualización Cámara</button>
         <br>
-        <button onclick="cargarImagen('EXTERIOR CASETA A 3.png')">Ubicacion Cámara</button>
+        <button id="Ubicacion2" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A3.png')">Ubicacion Cámara</button>
         </div>
         </div>   
     <div class="contenedor">
         <button id="boton-superpuesto3" >CASETA A 2</button>
         <div id="menu3" class="menu">
-        <button onclick="cargarImagen('CASETA A 2.png')">Visualización Cámara</button>
+        <button id="Visualizacion3" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA A 2.png')">Visualización Cámara</button>
         <br>
-        <a href="">Ubicacion Cámara</a>
+        <button id="Ubicacion3" class="Ubicacion" onclick="cargarImagen('EXTERIOR CASETA A 3.png')">Ubicacion Cámara</button>
         </div>
         </div>    
     <div class="contenedor">
         <button id="boton-superpuesto4" >ENTRADA PRINCIPAL</button>
         <div id="menu4" class="menu">
-        <button onclick="cargarImagen('ENTRADA PRINCIPAL.png')">Visualización Cámara</button>
+        <button id="Visualizacion4" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/ENTRADA PRINCIPAL.png')">Visualización Cámara</button>
         <br>
-        <a href="..\Modulo1\Materiales\Visualización Ubicacion Cámaras\Entrada Principal.jpeg">Ubicacion Cámara</a>
+        <button id="Ubicacion4" class="Ubicacion" onclick="UbicacionImagen('Materiales/Visualización Ubicacion Cámaras/Entrada Principal.png')">Ubicacion Cámara</button>
         </div>
         </div>      
     <div class="contenedor">
         <button id="boton-superpuesto5" >CASETA A 1</button>
         <div id="menu5" class="menu">
-        <button onclick="cargarImagen('CASETA A1.png')">Visualización Cámara</button>
+        <button id="Visualizacion5" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA A1.png')">Visualización Cámara</button>
         <br>
-        <a href="">Ubicacion Cámara</a>
+        <button id="Ubicacion5" class="Ubicacion" onclick="cargarImagen('EXTERIOR CASETA A 3.png')">Ubicacion Cámara</button>
         </div>
         </div>        
     <div class="contenedor">
         <button id="boton-superpuesto6" >EXTERIOR CASETA A 1</button>
         <div id="menu6" class="menu">
-        <button onclick="cargarImagen('EXTERIOR CASETA A 1.png')">Visualización Cámara</button>
+        <button id="Visualizacion6" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA A 1.png')">Visualización Cámara</button>
         <br>
-        <a href="..\Modulo1\Materiales\Visualización Ubicacion Cámaras\EXTERIOR CASETA A1.png">Ubicacion Cámara</a>
+        <button id="Ubicacion6" class="Ubicacion" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A1.png')">Ubicacion Cámara</button>
         </div>
         </div>  
     <div class="contenedor">
         <button id="boton-superpuesto7" >VENTILADORES CASETA AA</button>
         <div id="menu7" class="menu">
-        <button onclick="cargarImagen('VENTILADORES CASETA AA.png')">Visualización Cámara</button>
+        <button id="Visualizacion7" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/VENTILADORES CASETA AA.png')">Visualización Cámara</button>
         <br>
-        <a href="..\Modulo1\Materiales\Visualización Ubicacion Cámaras\VENTILADORES CASETA AA.png">Ubicacion Cámara</a>
+        <button id="Ubicacion7" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/VENTILADORES CASETA AA.png')">Ubicacion Cámara</button>
         </div>
         </div>  
     <div class="contenedor">
         <button id="boton-superpuesto8" >EXTERIOR CASETA B 1</button>
         <div id="menu8" class="menu">
-        <button onclick="cargarImagen('EXTERIOR CASETA B 1.png')">Visualización Cámara</button>
+        <button id="Visualizacion8" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA B 1.png')">Visualización Cámara</button>
         <br>
-        <a href="..\Modulo1\Materiales\Visualización Ubicacion Cámaras\EXTERIOR CASETA B1.png">Ubicacion Cámara</a>
+        <button id="Ubicacion8" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA B1.png')">Ubicacion Cámara</button>
         </div>
         </div>      
     <div class="contenedor">
         <button id="boton-superpuesto9" >CASETA B 4</button>
         <div id="menu9" class="menu">
-        <button onclick="cargarImagen('CASETA B 4.png')">Visualización Cámara</button>
+        <button id="Visualizacion9" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA B 4.png')">Visualización Cámara</button>
         <br>
-        <a href="">Ubicacion Cámara</a>
+        <button id="Ubicacion9" class="Ubicacion" onclick="cargarImagen('EXTERIOR CASETA A 3.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto10" >EXTERIOR CASETA B 2</button>
         <div id="menu10" class="menu">
-        <button onclick="cargarImagen('EXTERIOR CASETA B 2.png')">Visualización Cámara</button>
+        <button id="Visualizacion10" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA B 2.png')">Visualización Cámara</button>
         <br>
-        <a href="..\Modulo1\Materiales\Visualización Ubicacion Cámaras\EXTERIOR CASETA B2.png">Ubicacion Cámara</a>
+        <button id="Ubicacion10" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA B1.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto11" >CASETA B 3</button>
         <div id="menu11" class="menu">
-        <button onclick="cargarImagen('CASETA B 3.png')">Visualización Cámara</button>
+        <button id="Visualizacion11" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA B 3.png')">Visualización Cámara</button>
         <br>
-        <a href="">Ubicacion Cámara</a>
+        <button id="Ubicacion11" class="Ubicacion" onclick="cargarImagen('EXTERIOR CASETA A 3.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto12" >CASETA B 2</button>
         <div id="menu12" class="menu">
-        <button onclick="cargarImagen('CASETA B 2.png')">Visualización Cámara</button>
+        <button id="Visualizacion12" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA B 2.png')">Visualización Cámara</button>
         <br>
-        <a href="">Ubicacion Cámara</a>
+        <button id="Ubicacion12" class="Ubicacion" onclick="cargarImagen('EXTERIOR CASETA A 3.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto13" >CASETA B 1</button>
         <div id="menu13" class="menu">
-        <button onclick="cargarImagen('CASETA B 1.png')">Visualización Cámara</button>
+        <button id="Visualizacion13" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA B 1.png')">Visualización Cámara</button>
         <br>
-        <a href="">Ubicacion Cámara</a>
+        <button id="Ubicacion13" class="Ubicacion" onclick="cargarImagen('EXTERIOR CASETA A 3.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto14" >ENTRADA</button>
         <div id="menu14" class="menu">
-        <button onclick="cargarImagen('ENTRADA.png')">Visualización Cámara</button>
+        <button id="Visualizacion14" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/ENTRADA.png')">Visualización Cámara</button>
         <br>
-        <a href="..\Modulo1\Materiales\Visualización Ubicacion Cámaras\ENTRADA.png">Ubicacion Cámara</a>
+        <button id="Ubicacion14" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/ENTRADA.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto15" >EXTERIOR CASETA C 3</button>
         <div id="menu15" class="menu">
-        <button onclick="cargarImagen('EXTERIOR CASETA C 3.png')">Visualización Cámara</button>
+        <button id="Visualizacion15" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA C 3.png')">Visualización Cámara</button>
         <br>
-        <a href="..\Modulo1\Materiales\Visualización Ubicacion Cámaras\EXTERIOR C3.png">Ubicacion Cámara</a>
+        <button id="Ubicacion15" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA C3.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto16" >EXTERIOR CASETA C 2</button>
         <div id="menu16" class="menu">
-        <button onclick="cargarImagen('EXTERIOR CASETA C 2.png')">Visualización Cámara</button>
+        <button id="Visualizacion16" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA C 2.png')">Visualización Cámara</button>
         <br>
-        <a href="..\Modulo1\Materiales\Visualización Ubicacion Cámaras\EXTERIOR CASETA C2.png">Ubicacion Cámara</a>
+        <button id="Ubicacion16" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA C2.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto17" >CASETA C 1</button>
         <div id="menu17" class="menu">
-        <button onclick="cargarImagen('CASETA C 1.png')">Visualización Cámara</button>
+        <button id="Visualizacion17" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA C 1.png')">Visualización Cámara</button>
         <br>
-        <a href="">Ubicacion Cámara</a>
+        <button id="Ubicacion17" class="Ubicacion" onclick="cargarImagen('EXTERIOR CASETA A 3.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto18" >CASETA C 2</button>
         <div id="menu18" class="menu">
-        <button onclick="cargarImagen('CASETA C 2.png')">Visualización Cámara</button>
+        <button id="Visualizacion18" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA C 2.png')">Visualización Cámara</button>
         <br>
-        <a href="">Ubicacion Cámara</a>
+        <button id="Ubicacion18" class="Ubicacion" onclick="cargarImagen('EXTERIOR CASETA A 3.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto19" >CASETA C 3</button>
         <div id="menu19" class="menu">
-        <button onclick="cargarImagen('CASETA C 3.png')">Visualización Cámara</button>
+        <button id="Visualizacion19" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA C 3.png')">Visualización Cámara</button>
         <br>
-        <a href="">Ubicacion Cámara</a>
+        <button id="Ubicacion19" class="Ubicacion" onclick="cargarImagen('EXTERIOR CASETA A 3.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto20" >CASETA C 4</button>
         <div id="menu20" class="menu">
-        <button onclick="cargarImagen('CASETA C 4.png')">Visualización Cámara</button>
+        <button id="Visualizacion20" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA C 4.png')">Visualización Cámara</button>
         <br>
-        <a href="">Ubicacion Cámara</a>
+        <button id="Ubicacion20" class="Ubicacion" onclick="cargarImagen('EXTERIOR CASETA A 3.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto21" >EXTERIOR CASETA C 1</button>
         <div id="menu21" class="menu">
-        <button onclick="cargarImagen('EXTERIOR CASETA C 1.png')">Visualización Cámara</button>
+        <button id="Visualizacion21" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA C 1.png')">Visualización Cámara</button>
         <br>
-        <a href="..\Modulo1\Materiales\Visualización Ubicacion Cámaras\EXTERIOR CASETA C1.png">Ubicacion Cámara</a>
+        <button id="Ubicacion21" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA C1.png')">Ubicacion Cámara</button>
         </div>
         </div>
     <div class="contenedor">
         <button id="boton-superpuesto22" >VENTILADORES CASETA C</button>
         <div id="menu22" class="menu">
-        <button onclick="cargarImagen('VENTILADORES CASETA C.png')">Visualización Cámara</button>
+        <button id="Visualizacion22" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/VENTILADORES CASETA C.png')">Visualización Cámara</button>
         <br>
-        <a href="..\Modulo1\Materiales\Visualización Ubicacion Cámaras\VENTILADORES CASETA C.png">Ubicacion Cámara</a>
+        <button id="Ubicacion22" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/VENTILADORES CASETA C.png')">Ubicacion Cámara</button>
         </div>
         </div>
         

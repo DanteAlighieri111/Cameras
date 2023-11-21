@@ -1,31 +1,11 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #f4f4f4;
+/* Estilos para la clase 'cargar-imagen' */
+.cargar-imagen {
+  /* Estilos específicos para cargarImagen */
+  border: 2px solid #ff0000; /* Por ejemplo, un borde rojo */
 }
-.galeria {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-.imagen {
-  width: 200px;
-  height: 150px;
-  margin: 10px;
-  overflow: hidden;
-  cursor: pointer;
-}
-.imagen img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-.imagen:hover img {
-  transform: scale(1.1);
+
+/* Estilos para la clase 'cargar-otra-imagen' */
+.cargar-otra-imagen {
+  /* Estilos específicos para cargarOtraImagen */
+  border: 2px solid #00ff00; /* Por ejemplo, un borde verde */
 }
