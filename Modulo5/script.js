@@ -1,3 +1,34 @@
+function cargarPagina(paginaURL) {
+    // Redirige a la página externa
+    window.location.href = paginaURL;
+  }
+  
+  function cargarImagen(imagenURL) {
+    // Redirige a la página externa y pasa la URL de la imagen como parámetro
+    window.location.href = 'pagina-externa.html?imagen=' + encodeURIComponent(imagenURL);
+  }
+  
+  function UbicacionImagen(imagenURL) {
+    // Redirige a la página externa y pasa la URL de la imagen como parámetro
+    window.location.href = 'pagina-externa.html?imagen=' + encodeURIComponent(imagenURL);
+  }
+  
+  // Función para obtener parámetros de la URL
+  function obtenerParametroURL(nombre) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(nombre);
+  }
+  // Obtén la URL de la imagen de los parámetros
+  const imagenURL = obtenerParametroURL('imagen');
+  
+  if (imagenURL) {
+      // Crea un elemento de imagen y establece la fuente
+      const imagen = document.createElement('img');
+      imagen.src = imagenURL;
+  
+      // Agrega la imagen al contenedor
+      document.getElementById('contenedor-imagen').appendChild(imagen);
+  }
 // Obtén los elementos relevantes
 // Define una función para mostrar/ocultar el menú y cambiar la clase del contenedor
 function toggleMenu(buttonId, menuId) {
@@ -29,5 +60,5 @@ toggleMenu('boton-superpuesto15', 'menu15');
 toggleMenu('boton-superpuesto16', 'menu16');
 toggleMenu('boton-superpuesto17', 'menu17');
 toggleMenu('boton-superpuesto18', 'menu18');
-toggleMenu('boton-superpuesto21', 'menu19');
+toggleMenu('boton-superpuesto19', 'menu19');
 

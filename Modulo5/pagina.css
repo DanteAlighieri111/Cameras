@@ -1,0 +1,25 @@
+.Clase /*Pagina Principal*/{
+    background-color: #3498db;
+    color: #7217bd;
+    padding: 1px 1px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 8px; 
+    left: 8px; 
+    z-index: 3; /* Coloca el botón por encima del contenido */
+    font-family: verdana;
+    white-space: nowrap;
+}
+.imagen-link {
+    width: 1.8vw; /* Ancho deseado en píxeles */
+    height: 1.8vw; /* Alto deseado en píxeles */
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% del alto de la ventana */
+    margin: 0; /* Elimina el margen predeterminado del body */
+    background-color: black;
+}
