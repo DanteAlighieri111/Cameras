@@ -828,7 +828,9 @@
 } 
 .visualizacion{
     font-size: 0.7vw;
+    cursor: pointer;
 }
 .Ubicacion{
     font-size: 0.7vw;
+    cursor: pointer;
 }
