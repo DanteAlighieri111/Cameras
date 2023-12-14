@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<head>
+<head> <!-- Este apartado del head es el que determinan los enlaces con el css y el icono que se ve en la pestaña de la pagina (si se mueve mucho sin saber puede afectar dastricamente como se ve la pagina) -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Boton.css">
@@ -7,51 +7,71 @@
     <title>Pagina Cámaras</title>
 </head>
 <body>
-        <button id="boton-superpuesto1" >EXTERIOR CASETA A 2</button>
-        <div id="menu1" class="menu">
-        <button id="Visualizacion1" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA A 2.png')">Visualización Cámara</button>
-        <br>
-        <button id="Ubicacion1" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A2.png')">Ubicacion Cámara</button>
-        </div>
-        </div>
-    <div class="contenedor">
-        <button id="boton-superpuesto2" >EXTERIOR CASETA A3</button>
-        <div id="menu2" class="menu">
-        <button id="Visualizacion2" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA A 3.png')">Visualización Cámara</button>
-        <br>
-        <button id="Ubicacion2" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A3.png')">Ubicacion Cámara</button>
-        </div>
-        </div>   
-    <div class="contenedor">
-        <button id="boton-superpuesto3" >CASETA A 2</button>
-        <div id="menu3" class="menu">
-        <button id="Visualizacion3" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA A 2.png')">Visualización Cámara</button>
-        <br>
-        <button id="Ubicacion3" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A2.png')">Ubicacion Cámara</button>
-        </div>
-        </div>    
-    <div class="contenedor">
-        <button id="boton-superpuesto4" >ENTRADA PRINCIPAL</button>
-        <div id="menu4" class="menu">
-        <button id="Visualizacion4" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/ENTRADA PRINCIPAL.png')">Visualización Cámara</button>
-        <br>
-        <button id="Ubicacion4" class="Ubicacion" onclick="UbicacionImagen('Materiales/Visualización Ubicacion Cámaras/Entrada Principal.png')">Ubicacion Cámara</button>
-        </div>
-        </div>      
-    <div class="contenedor">
-        <button id="boton-superpuesto5" >CASETA A 1</button>
-        <div id="menu5" class="menu">
-        <button id="Visualizacion5" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA A1.png')">Visualización Cámara</button>
-        <br>
-        <button id="Ubicacion5" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A1.png')">Ubicacion Cámara</button>
-        </div>
-        </div>        
-    <div class="contenedor">
-        <button id="boton-superpuesto6" >EXTERIOR CASETA A 1</button>
-        <div id="menu6" class="menu">
-        <button id="Visualizacion6" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA A 1.png')">Visualización Cámara</button>
-        <br>
-        <button id="Ubicacion6" class="Ubicacion" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A1.png')">Ubicacion Cámara</button>
+    <!-- En el body se encuentra la estructura de todos los botones de la pagina, ironicamente la pagina no es mas que una imagen con botones y opciones superpuestas -->
+    <div class="contenedor"> <!-- Todos los botones tienen clase contenedor y se "dividen" en dos secciones "boton-superpuestoX" y "menuX" -->
+        <button id="boton-superpuesto1" >EXTERIOR CASETA A 2</button> <!-- Aqui se determina el id para poder llamar al elemento en otras pestañas 
+        añadido a eso se determina el texto que se muestra de manera natural en la pantalla del usuario -->
+        <div id="menu1" class="menu">  <!-- Esta es la clase del menu y su respectiva id para poder llamarlo en otras pestañas del codigo -->
+        <!-- Aqui se dividen en las dos opciones que se muestran cuando se hace click en el boton "Visualizacion" y "Ubicacion" -->
+        <button id="Visualizacion1" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA A 2.png')">Visualización Cámara</button> <!-- Esta es una de las dos opciones 
+        que se despliegan cuando se hace click en el boton, esta en concreto muestra lo que ve la cámara (una foto de la visualizacion desde el DVR) si se fija a detalle en la linea vera que tiene incluida 
+        un comando de JS ya que lo que se busca que una pagina externa pre configurada busque y carga estas imagenes, ¿por qué?, para poder poner un boton de regreso al plano y para poder dotar de determinadas
+        caracteristicas a la imagen -->
+        <br> <!-- Este cierre de parrafo evita que las dos opciones se muestren seguida y sobrepuestas(hace que una opcion se muestre justo por debajo de la otra) -->
+        <button id="Ubicacion1" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A2.png')">Ubicacion Cámara</button> <!-- Aqui esta la otra opcion del menu
+        Esta lo que hace es mostrar una foto enfocando donde y como se encuentra instalada la cámara seleccionada como lo anterior se encuentra con una linea de JS para que la misma pagina externa muestre 
+        la ubicacion -->
+        </div> <!-- Este div cierra el menu y sus opciones-->
+        </div> <!-- Este div el contemedor, cierra el boton como tal y todo lo que abarca dentro de él -->
+    <div class="contenedor"> <!-- Todos los botones tienen clase contenedor y se "dividen" en dos secciones "boton-superpuestoX" y "menuX" -->
+        <button id="boton-superpuesto2" >EXTERIOR CASETA A3</button> <!-- Este es el boton poco mas, determina la id y el texto que se muestra -->
+        <!-- Aqui empieza el menu que se despliega y las opciones del menu -->
+        <div id="menu2" class="menu"> 
+        <button id="Visualizacion2" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA A 3.png')">Visualización Cámara</button> <!-- igual que el anterior 
+        muestra la visualizacion de la imagen en una pagina externa con un boton que te permite volver al modulo o la pagina principal -->
+        <br> <!-- Muestra las opciones una debajo de la otra -->
+        <button id="Ubicacion2" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A3.png')">Ubicacion Cámara</button> <!-- Igual que el anterior 
+        muestra una foto de donde se cuentra la cámara seleccionada en la pagina externa con los botones de retroceso -->
+        </div> <!-- Este div cierra el menu y sus opciones-->
+        </div> <!-- Este div el contemedor, cierra el boton como tal y todo lo que abarca dentro de él -->
+    <div class="contenedor"> <!-- Todos los botones tienen clase contenedor y se "dividen" en dos secciones "boton-superpuestoX" y "menuX" -->
+        <button id="boton-superpuesto3" >CASETA A 2</button> <!-- Este es el boton poco mas, determina la id y el texto que se muestra -->
+        <div id="menu3" class="menu"> <!-- Aqui empieza el menu que se despliega y las opciones del menu -->
+        <button id="Visualizacion3" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA A 2.png')">Visualización Cámara</button> <!-- igual que el anterior 
+        muestra la visualizacion de la imagen en una pagina externa con un boton que te permite volver al modulo o la pagina principal -->
+        <br> <!-- Muestra las opciones una debajo de la otra -->
+        <button id="Ubicacion3" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A2.png')">Ubicacion Cámara</button> <!-- Igual que el anterior 
+        muestra una foto de donde se cuentra la cámara seleccionada en la pagina externa con los botones de retroceso -->
+        </div> <!-- Este div cierra el menu y sus opciones-->
+        </div> <!-- Este div el contemedor, cierra el boton como tal y todo lo que abarca dentro de él -->
+    <div class="contenedor"> <!-- Todos los botones tienen clase contenedor y se "dividen" en dos secciones "boton-superpuestoX" y "menuX" -->
+        <button id="boton-superpuesto4" >ENTRADA PRINCIPAL</button> <!-- Este es el boton poco mas, determina la id y el texto que se muestra -->
+        <div id="menu4" class="menu"> <!-- Aqui empieza el menu que se despliega y las opciones del menu -->
+        <button id="Visualizacion4" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/ENTRADA PRINCIPAL.png')">Visualización Cámara</button> <!-- igual que el anterior 
+        muestra la visualizacion de la imagen en una pagina externa con un boton que te permite volver al modulo o la pagina principal -->
+        <br> <!-- Muestra las opciones una debajo de la otra -->
+        <button id="Ubicacion4" class="Ubicacion" onclick="UbicacionImagen('Materiales/Visualización Ubicacion Cámaras/Entrada Principal.png')">Ubicacion Cámara</button> <!-- Igual que el anterior 
+        muestra una foto de donde se cuentra la cámara seleccionada en la pagina externa con los botones de retroceso -->
+        </div> <!-- Este div cierra el menu y sus opciones-->
+        </div> <!-- Este div el contemedor, cierra el boton como tal y todo lo que abarca dentro de él -->
+    <div class="contenedor"> <!-- Todos los botones tienen clase contenedor y se "dividen" en dos secciones "boton-superpuestoX" y "menuX" -->
+        <button id="boton-superpuesto5" >CASETA A 1</button> <!-- Este es el boton poco mas, determina la id y el texto que se muestra -->
+        <div id="menu5" class="menu"> <!-- Aqui empieza el menu que se despliega y las opciones del menu -->
+        <button id="Visualizacion5" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/CASETA A1.png')">Visualización Cámara</button> <!-- igual que el anterior 
+        muestra la visualizacion de la imagen en una pagina externa con un boton que te permite volver al modulo o la pagina principal -->
+        <br> <!-- Muestra las opciones una debajo de la otra -->
+        <button id="Ubicacion5" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A1.png')">Ubicacion Cámara</button> <!-- Igual que el anterior 
+        muestra una foto de donde se cuentra la cámara seleccionada en la pagina externa con los botones de retroceso -->
+        </div> <!-- Este div cierra el menu y sus opciones-->
+        </div> <!-- Este div el contemedor, cierra el boton como tal y todo lo que abarca dentro de él -->
+    <div class="contenedor"> <!-- Todos los botones tienen clase contenedor y se "dividen" en dos secciones "boton-superpuestoX" y "menuX" -->
+        <button id="boton-superpuesto6" >EXTERIOR CASETA A 1</button> <!-- Este es el boton poco mas, determina la id y el texto que se muestra -->
+        <div id="menu6" class="menu"> <!-- Aqui empieza el menu que se despliega y las opciones del menu -->
+        <button id="Visualizacion6" class="visualizacion" onclick="cargarImagen('Materiales/Visualización Cámaras/EXTERIOR CASETA A 1.png')">Visualización Cámara</button> <!-- igual que el anterior 
+        muestra la visualizacion de la imagen en una pagina externa con un boton que te permite volver al modulo o la pagina principal -->
+        <br> <!-- Muestra las opciones una debajo de la otra -->
+        <button id="Ubicacion6" class="Ubicacion" onclick="cargarImagen('Materiales/Visualización Ubicacion Cámaras/EXTERIOR CASETA A1.png')">Ubicacion Cámara</button> <!-- Igual que el anterior 
+        muestra una foto de donde se cuentra la cámara seleccionada en la pagina externa con los botones de retroceso -->
         </div>
         </div>  
     <div class="contenedor">

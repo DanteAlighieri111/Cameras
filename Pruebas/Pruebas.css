@@ -1,11 +1,45 @@
-/* Estilos para la clase 'cargar-imagen' */
-.cargar-imagen {
-  /* Estilos específicos para cargarImagen */
-  border: 2px solid #ff0000; /* Por ejemplo, un borde rojo */
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+#boton-superpuesto1 /*EXTERIOR CASETA A 2*/ { 
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
+  padding: 0.2% 0.2%;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  font-size: 0.6vw;
+  top: 42%; /* Ajusta la posición superior según tus necesidades */
+  left: 30%; /* Ajusta la posición izquierda según tus necesidades */
+  z-index: 5; /* Coloca el botón por encima del contenido */
+  font-family: verdana;
 }
+  .boton-superpuesto{
+    /* transition: <property> <duration> <timing-function> <delay> */
+    transition: all 0.5s linear;
+  
+    background: grey;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .boton-superpuesto:hover {
+    background: indigo;
+  }
 
-/* Estilos para la clase 'cargar-otra-imagen' */
-.cargar-otra-imagen {
-  /* Estilos específicos para cargarOtraImagen */
-  border: 2px solid #00ff00; /* Por ejemplo, un borde verde */
+/* Estilo para el menú */
+#menu1 {
+  display: none;
+  position: absolute;
+  top: 42%;
+  left: 37.5%;
+  font-size: 0.6vw;
+  z-index: 3;
+  font-family: verdana;
+  white-space: nowrap;
+}
+#menu1 a {
+  display: block;
+  text-decoration: none;
+  font-size: 0.6vw;   
+  color: #333;
 }

@@ -1,217 +1,227 @@
+/*Se me dijo que si no documentaba al menos debia poner comentarios en mi codigo para que el proximo pudiera comprender que webadas fue lo que hice asi que aqui estamos 
+comentare mas a detalle las primeras lineas las lineas de más abajo tendran comentarios generales es mas que todo para que tengas una base en donde sostenerte cuando empieces a trabajar*/                                                                                                                                                                                                                                                                         /*si estas en esta parte del codigo, hay una imagen de un gatito escondida dentro del codigo como mi firma, esperemos que no la encuentre XP*/
 .texto-superpuesto1 a {
     /* Estilos para el enlace */
-    position: absolute;
-    display: inline-block;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
+    display: inline-block; /*Similar a la linea anterior sirve para darle un comportamiento especifico al texto, prueba borrarlo para ver la magia*/   
     color: #000000; /* Cambia el color del texto del enlace a negro */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
-    cursor: pointer;
+    cursor: pointer; /*Hace que cuando se pase el cursor por encima este cambie a la tipica manita de seleccion*/
     font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana */
-    top: 57.5%; /* Coloca el enlace en el centro verticalmente */
-    left: 86%; /* Coloca el enlace en el centro horizontalmente */
-     /* Centra el enlace exactamente en el centro */
-    z-index: 3;
-    white-space: nowrap;
-    font-family: verdana;
-    
-    transition: 300ms; /* Agregamos una transición */
+    top: 57.5%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+    left: 86%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
+    z-index: 3; /* Determina la capa en la que esta el elemento dentro de la cordenada "Z" (esto determina si el elemento queda por encima o por debajo)*/
+    white-space: nowrap; /* Esta linea lo que hace es determinar como se comporta el espacio en blanco del texto, especificamente evita que el texto suba o baje dependiento del tamaño de la pantalla, sera un texto lineal.*/
+    font-family: verdana; /*Papá el fuente del texto V: en este caso es verdana, por qué puse este y no simplemente font?, porque antes tenia más tipografias*/
+    transition: 300ms; /*Agregamos una transición, esto para que al cambiar la resolucion el texto tenga una transicion más suave*/ 
 }
 .texto-superpuesto1:hover {
-    position: absolute;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
     grid-template-columns: 1fr 1fr 1fr; /* Propiedades del grid al pasar el cursor */
     padding: 2.5px 2.5px; /* Propiedades del botón al pasar el cursor */
-    top: 57.5%;
-    left: 86%;
-    white-space: nowrap;
-    z-index: 3;
+    top: 57.5%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+    left: 86%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
+    white-space: nowrap; /* Esta linea lo que hace es determinar como se comporta el espacio en blanco del texto, especificamente evita que el texto suba o baje dependiento del tamaño de la pantalla, sera un texto lineal.*/
+    z-index: 3; /*Papá el fuente del texto V: en este caso es verdana, por qué puse este y no simplemente font?, porque antes tenia más tipografias*/
+    transition: 300ms; /* Agregamos una transición */
 }
 .texto-superpuesto2 a {
     /* Estilos para el enlace */
-    position: absolute;
-    display: inline-block;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
+    display: inline-block; /*sirve para darle un comportamiento especifico al texto, prueba borrarlo para ver la magia*/   
     color: #000000; /* Cambia el color del texto del enlace a negro */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
-    cursor: pointer;
+    cursor: pointer; /*pone el cursor en manito oe*/
     font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana */
-    top: 92%; /* Coloca el enlace en el centro verticalmente */
-    left: 61.5%; /* Coloca el enlace en el centro horizontalmente */
+    top: 92%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+    left: 61.5%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
     transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
-    z-index: 3;
-    font-family: verdana;
+    z-index: 3; /*Papá el fuente del texto V: en este caso es verdana, por qué puse este y no simplemente font?, porque antes tenia más tipografias*/
+    font-family: verdana; /*Papá el fuente del texto V: en este caso es verdana, por qué puse este y no simplemente font?, porque antes tenia más tipografias, pero ya tienes una linea arriba explicandolo oe*/
     transition: 300ms; /* Agregamos una transición */
 }
 .texto-superpuesto2:hover {
-    position: absolute;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
     grid-template-columns: 1fr 1fr 1fr; /* Propiedades del grid al pasar el cursor */
     padding: 2.5px 2.5px; /* Propiedades del botón al pasar el cursor */
-    top: 92%;
-    left: 61.5%;
-    z-index: 3;
+    top: 92%; /* Este valor lo que indica es que tan abajo poner el elemento respecto al aspecto de pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador
+    eso determina que tanto se mueve cuando se ponga el cursor sobre el boton */
+    left: 61.5%; /* Este valor lo que indica es que tan a la izquierda poner el elemento respecto al aspecto de pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador
+    eso determina que tanto se mueve cuando se ponga el cursor sobre el boton */
+    z-index: 3; /*Esta linea determina si esta por encima o por debajo de los demas elemento en este caso esta por encima de todos los elementos*/
+    transition: 300ms; /* Agregamos una transición */
 }
- /*820,480*/
 .texto-superpuesto3 a {
     /* Estilos para el enlace */
-    position: absolute;
-    display: inline-block;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
+    display: inline-block; /*sirve para darle un comportamiento especifico al texto, prueba borrarlo para ver la magia*/   
     color: #000000; /* Cambia el color del texto del enlace a negro */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
-    cursor: pointer;
+    cursor: pointer; /* Cambia el cursor por la manita maestra cuando se pasa el cursor sobre ella */
     font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana */
-    top: 94%; /* Coloca el enlace en el centro verticalmente */
-    left: 36%; /* Coloca el enlace en el centro horizontalmente */
+    top: 94%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+    left: 36%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
     transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
-    z-index: 3;
-    font-family: verdana;
+    z-index: 3; /* Esta linea determina si esta por debajo o por encima de los demas elementos en pantalla, en este caso esta por encima de todos los demas elementos */
+    font-family: verdana; /* Determina el tipo de letra que se utiliza, usualmente simplemente se pondria "font", pero al momento de programar primeramente use varios tipos de letras 
+    no quita la parte de family ya que tal vez se pueda llegar a anexar otra tipografia no obstante, puedes quitarlo si asi lo deseas */
     transition: 300ms; /* Agregamos una transición */
 }
 .texto-superpuesto3:hover {
-    position: absolute;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
     grid-template-columns: 1fr 1fr 1fr; /* Propiedades del grid al pasar el cursor */
     padding: 2.5px 2.5px; /* Propiedades del botón al pasar el cursor */
-    top: 94%;
-    left: 36%;
-    white-space: nowrap;
-    z-index: 3;
+    top: 94%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+    left: 36%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
+    white-space: nowrap; /* Determina que hacer con el espacio en blanco del texto, la sentancia nowrap determina el comportamiento evita que se deforme el texto dependiendo del tamaño pantalla*/
+    z-index: 3; /* Determina en que posicion se cuentra el elemento respecto a la coordenada z en el codigo, en este caso este elemento esta por encima de todos los demas*/
+    transition: 300ms; /* Agregamos una transición */
 }
 .texto-superpuesto4 a {
     /* Estilos para el enlace */
-    position: absolute;
-    display: inline-block;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
+    display: inline-block; /*sirve para darle un comportamiento especifico al texto, prueba borrarlo para ver la magia*/   
     color: #000000; /* Cambia el color del texto del enlace a negro */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
-    cursor: pointer;
+    cursor: pointer; /* Cambia el cursor del mouse a la manita de seleccion del mouse cuando se pase por encima del boton*/
     font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana */
-    top: 87%; /* Coloca el enlace en el centro verticalmente */
-    left: 12%; /* Coloca el enlace en el centro horizontalmente */
+    top: 87%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+    left: 12%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
     transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
-    z-index: 3;
-    font-family: verdana;
-    white-space: nowrap;
+    z-index: 3; /* Determina que tan arriba o abajo se encuentra el elemento respecto a los demas elementos en la pantalla, en esta caso esta por encima de los demas elementos */
+    font-family: verdana; /*Papá el fuente del texto V: en este caso es verdana, por qué puse este y no simplemente font?, porque antes tenia más tipografias*/
+    white-space: nowrap; /* Determina que hacer con el espacio en blanco del texto, la sentancia nowrap determina el comportamiento evita que se deforme el texto dependiendo del tamaño pantalla*/
     transition: 300ms; /* Agregamos una transición */
 }
 .texto-superpuesto4:hover {
-    position: absolute;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
     grid-template-columns: 1fr 1fr 1fr; /* Propiedades del grid al pasar el cursor */
     padding: 2.5px 2.5px; /* Propiedades del botón al pasar el cursor */
-    top: 87%;
-    left: 12%;
-    z-index: 3;
+    top: 87%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+    left: 12%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+    z-index: 3; /* Determina su posicion respecto a los demas elementos de la pantalla, en este caso esta por encima de todos */
+    transition: 300ms; /* Agregamos una transición */
 }
 .texto-superpuesto5 a {
     /* Estilos para el enlace */
-    position: absolute;
-    display: inline-block;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
+    display: inline-block; /*sirve para darle un comportamiento especifico al texto, prueba borrarlo para ver la magia*/   
     color: #000000; /* Cambia el color del texto del enlace a negro */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
-    cursor: pointer;
+    cursor: pointer; /* Cambia el misterioso puntero del mouse por la Poderosisima Hiper Mega Fuerte Manito del mouse, esto pasa solo cuando se pase el curso por encima del boton */
     font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana */
-    top: 79%; /* Coloca el enlace en el centro verticalmente */
-    left: 4%; /* Coloca el enlace en el centro horizontalmente */
-    transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
+    top: 79%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+    left: 4%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
+    transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */ /*Esta linea es relativamente util, puedes ir limpiando el codigo con tiempo/ complilando varias lineas*/
     z-index: 3;
-    white-space: nowrap;
-    font-family: verdana;
-    
+    white-space: nowrap; 
+    font-family: verdana; /*Papá el fuente del texto V: en este caso es verdana, por qué puse este y no simplemente font?, porque antes tenia más tipografias*/
     transition: 300ms; /* Agregamos una transición */
 }
 .texto-superpuesto5:hover {
-    position: absolute;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
     grid-template-columns: 1fr 1fr 1fr; /* Propiedades del grid al pasar el cursor */
     padding: 2.5px 2.5px; /* Propiedades del botón al pasar el cursor */
-    top: 79%;
-    left: 4%;
+    top: 79%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+    left: 4%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
     z-index: 3;
+    transition: 300ms; /* Agregamos una transición */
 }
 .image-container {
     position: relative;
     width: 100%; /* El contenedor ocupa el 100% del ancho disponible */
-    height: 100vh; /* El 100% de la altura de la ventana gráfica (viewport) */
-    z-index: 1;
-	overflow: hidden;
+    height: 100vh; /* El 100% de la altura de la ventana gráfica (viewport) esta puesto asi para que se acople al tamaño de la ventana de chrome cuando se cambie la resolucion */
+    z-index: 1; /* el mismo concepto de apilar elementos uno encima de otro en esta caso lo que sucede es que este elemento al ser el plano base o el contenedor del mismo esta 
+    por debajo de todo por eso tiene un valor de 1 quiere decir que esta por debajo de todo, aunque tambien podria ser de -X numero */
+	overflow: hidden; /*para ajustar el comportamiento del desbordamiento según las necesidades del diseño*/ 
 }
 #mapa {
     position: relative;
     width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
     height: 100%; /* La imagen ocupa el 100% del alto del contenedor */
-    left: 0;
-    top: 0;
-    z-index: 1;
-	transition: transform 0.2s;
+    z-index: 1; /*Abajo de todo los elementos, queda como base*/
 }
 .texto-superpuesto6 {
     /* Estilos para el enlace */
-    position: absolute;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
 	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
-    font-size: 1.6vw; /* Tamaño de fuente del enlace */
-	top: 15%;
-	left: 72%;
+    font-size: 1.6vw; /* Tamaño de fuente del enlace se deja el valor en vw para que sea autoajustable dependiendo del tamaño de la pantalla */
+	top: 15%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+	left: 72%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
 	transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
 	z-index: 3;
-	font-family: verdana;
+	font-family: verdana; /*Papá el fuente del texto V: en este caso es verdana, por qué puse este y no simplemente font?, porque antes tenia más tipografias*/
 	white-space: nowrap;
+    transition: 300ms; /* Agregamos una transición */
 }
 .texto-superpuesto7 {
     /* Estilos para el enlace */
-    position: absolute;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
 	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
     font-size: 1.6vw; /* Tamaño de fuente del enlace */
-	top: 28%;
-	left: 48.5%;
+	top: 28%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+	left: 48.5%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
 	transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
 	z-index: 3;
-	font-family: verdana;
-	white-space: nowrap;	
+	font-family: verdana; /*Papá el fuente del texto V: en este caso es verdana, por qué puse este y no simplemente font?, porque antes tenia más tipografias*/
+	white-space: nowrap;
+    transition: 300ms; /* Agregamos una transición */	
 }
 .texto-superpuesto8 {
     /* Estilos para el enlace */
-    position: absolute;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
 	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
     font-size: 1.6vw; /* Tamaño de fuente del enlace */
-	top: 14%;
-	left: 89%;
+	top: 14%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+	left: 89%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
 	transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
 	z-index: 3;
-	font-family: verdana;
+	font-family: verdana; /*Papá el fuente del texto V: en este caso es verdana, por qué puse este y no simplemente font?, porque antes tenia más tipografias*/
 	white-space: nowrap;
+    transition: 300ms; /* Agregamos una transición */
 }
 .texto-superpuesto9 {
     /* Estilos para el enlace */
-    position: absolute;
-	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
+	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo, es negro, pero ahi dice por ejemplo pue */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
     font-size: 1.6vw; /* Tamaño de fuente del enlace */
-	top: 39%;
-	left: 52.5%;
+	top: 39%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+	left: 52.5%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
 	transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
 	z-index: 3;
-	font-family: verdana;
+	font-family: verdana; /*Papá el fuente del texto V: en este caso es verdana, por qué puse este y no simplemente font?, porque antes tenia más tipografias*/
 	white-space: nowrap;
+    transition: 300ms; /* Agregamos una transición */
 }
 .texto-superpuesto10 {
     /* Estilos para el enlace */
-    position: absolute;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
 	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
     font-size: 1.6vw; /* Tamaño de fuente del enlace */
-	top: 55%;
-	left: 5.5%;
+	top: 55%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+	left: 5.5%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
 	transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
 	z-index: 3;
-	font-family: verdana;
+	font-family: verdana; /*Papá el fuente del texto V: en este caso es verdana, por qué puse este y no simplemente font?, porque antes tenia más tipografias*/
 	white-space: nowrap;
+    transition: 300ms; /* Agregamos una transición */
 }
 .texto-superpuesto11 {
     /* Estilos para el enlace */
-    position: absolute;
+    position: absolute; /*Pone el objeto como absoluto en el espacio lo que evita que se muevo cuando hay otro item/objeto al lado*/
 	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
     font-size: 1.6vw; /* Tamaño de fuente del enlace */
-	top: 12%;
-	left: 4.5%;
+	top: 12%; /* Este valor lo que indica es que tan abajo poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador */
+	left: 4.5%; /* Este valor indica que tan a la izquierda poner el elemento respecto a la pantalla, esta en porcentaje para que sea adaptable en cuanto se cambie de resolucion el navegador  */
 	transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
 	z-index: 3;
-	font-family: verdana;
+	font-family: verdana; /*Papá el fuente del texto V: en este caso es verdana, por qué puse este y no simplemente font?, porque antes tenia más tipografias*/
 	white-space: nowrap;
+    transition: 300ms; /* Agregamos una transición */
 }

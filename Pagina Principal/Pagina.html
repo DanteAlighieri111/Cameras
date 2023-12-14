@@ -2,55 +2,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="complemento.css">
-    <link rel="icon" type="image/png" href="..\Recursos del proyecto\organic_12626991.ico">
+    <link rel="stylesheet" href="complemento.css">  <!-- Esto es lo que enlaza la hoja de estilos (CSS) con este html -->
+    <link rel="icon" type="image/png" href="..\Recursos del proyecto\organic_12626991.ico"> <!-- Esta linea se encarga de llamar el pequeño icono que se muestra en la ventana de la pagina al lado del 
+    nombre de la misma -->
     <title>Pagina Cámaras</title>
 </head>
-<body>       
-    <div class="texto-superpuesto1">
-        <a href="..\Modulo1\Frunas.html">Modulo1</a>
-        <div class="columna-superpuesta"></div>
+<body> 
+    <!-- Los siguientes textos son los hipervinculos para los distintos modulos de la Granja San Antonio -->
+    <!-- De las siguientes clases todos son textos superpuestos ya que en su momento no encontraba un forma más sencilla de poner estos "Botones", pero de requerirlo o de molestarte puedes optar por
+    cambiar la clase y tus propiedades, solo recuerda hacer lo mismo y de manera correcta en los llamados que hagas en el complemente de css y con el JS -->
+    <div class="texto-superpuesto1"> 
+        <a href="..\Modulo1\Frunas.html">Modulo1</a> <!-- Este es el Html de cada modulo para mantener un orden y un correcto enlace entre todo 
+        yo recomiendo dejar las mismas rutas, pero modificar los archivos internos -->
     </div>
     <div class="texto-superpuesto2">
-        <a href="..\Modulo2\Frunas2.html">Modulo2</a>
-        <div class="columna-superpuesta"></div>
+        <a href="..\Modulo2\Frunas2.html">Modulo2</a> <!-- Este es el Html de cada modulo para mantener un orden y un correcto enlace entre todo 
+        yo recomiendo dejar las mismas rutas, pero modificar los archivos internos -->
     </div>
     <div class="texto-superpuesto3">
-        <a href="..\Modulo3\Frunas3.html">Modulo3</a>
-        <div class="columna-superpuesta"></div>
+        <a href="..\Modulo3\Frunas3.html">Modulo3</a> <!-- Este es el Html de cada modulo para mantener un orden y un correcto enlace entre todo 
+        yo recomiendo dejar las mismas rutas, pero modificar los archivos internos -->
     </div>
     <div class="texto-superpuesto4">
-        <a href="..\Modulo4\Frunas4.html">Modulo4</a>
-        <div class="columna-superpuesta"></div>
+        <a href="..\Modulo4\Frunas4.html">Modulo4</a> <!-- Este es el Html de cada modulo para mantener un orden y un correcto enlace entre todo 
+        yo recomiendo dejar las mismas rutas, pero modificar los archivos internos -->
     </div>
     <div class="texto-superpuesto5">
-        <a href="..\Modulo5\Frunas5.html">Modulo5</a>
-        <div class="columna-superpuesta"></div>
+        <a href="..\Modulo5\Frunas5.html">Modulo5</a> <!-- Este es el Html de cada modulo para mantener un orden y un correcto enlace entre todo 
+        yo recomiendo dejar las mismas rutas, pero modificar los archivos internos -->
     </div>
     <div class="texto-superpuesto6">
-        <p class="texto-superpuesto6">Torre de la Oficina</p>
+        <p class="texto-superpuesto6">Torre de la Oficina</p> <!-- Se supone que en un futuro cuando se implementen más cámaras en las distintas ubicaciones se han de añadir aqui los hipervinculos 
+        a las paginas ya creadas, si la interfaz que ve el usuario de primero es lo ultimo que configuramos en este codigo, como en muchos otros xddd -->
         </div>
     <div class="texto-superpuesto7">
-        <p class="texto-superpuesto7">Nueva Torre</p>
+        <p class="texto-superpuesto7">Nueva Torre</p> <!-- Este no es mas que un texto sin mas, lo puse ahi para poder ponerle una descripcion a cada item que se ve en el mapa -->
         </div>
     <div class="texto-superpuesto8">
-        <p class="texto-superpuesto8">Oficina</p>
+        <p class="texto-superpuesto8">Oficina</p> <!-- Se supone que en un futuro cuando se implementen más cámaras en las distintas ubicaciones se han de añadir aqui los hipervinculos 
+            a las paginas ya creadas, si la interfaz que ve el usuario de primero es lo ultimo que configuramos en este codigo, como en muchos otros xddd -->
         </div>
     <div class="texto-superpuesto9">
-        <p class="texto-superpuesto9">Poste de <br>energia interno</p>
+        <p class="texto-superpuesto9">Poste de <br>energia interno</p> <!-- Este no es mas que un texto sin mas, lo puse ahi para poder ponerle una descripcion a cada item que se ve en el mapa
+        La parte de "br" lo que hace es dividir el texto para que se ve una parte encima de otra, en otras palabra como si en word hubieras dado enter -->
         </div>
     <div class="texto-superpuesto10">
-        <p class="texto-superpuesto10">San Antonio LAN</p>
+        <p class="texto-superpuesto10">San Antonio LAN</p> <!-- Este no es mas que un texto sin mas, lo puse ahi para poder ponerle una descripcion a cada item que se ve en el mapa
+        En este caso es el propio titulo del plano, ten cuidado cuando lo modifiques en el css, que no se sobreponga a los demas titulos -->
         </div>
-    <div class="texto-superpuesto11">
-        <a href="..\Inicio\Pagina.html">
-        <img class="imagen-link" src="..\Recursos del proyecto\Boton de regreso.png" alt="Icono de regreso">
+    <div class="texto-superpuesto11"> <!-- Este es boton de inicio con su hipervinculo para la pagina de Inicio -->
+        <a href="..\Inicio\Pagina.html"> <!-- El vinculo a donde redirige la pagina mi papaaa -->
+        <img class="imagen-link" src="..\Recursos del proyecto\Boton de regreso.png" alt="Icono de regreso"> <!-- Esta es la clase y la ruta de donde se saca la imagen del boton de regreso -->
         </a>
         </div>
 
-<div class="image-container">
-    <img src="..\Pagina Principal\Imagen\Principal.png" lt="Imagen Responsiva" id="mapa">
+<div class="image-container"> <!-- Este es la linea de texto que se encarga del plano donde muestra todos los modulos de la granja San Antonio -->
+    <img src="..\Pagina Principal\Imagen\Principal.png" lt="Imagen Responsiva" id="mapa"> <!-- Esta es la ruta, la clase y la id que le puse a la imagen que se ve de background o como yo lo llamo 
+    "Mi Planito" para mantener un orden recomiendo si se va a cambiar la imagen conversar la misma carpeta de ruta -->
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- El enlace con el script, no lo borres a menos que quieras que no pase practicamente nada, este script en concreto no hace mucho 
+    lo usaba mas que todo para pruebas de optimizaciond de codigo puedes usarlo para lo mismo o si le encuentras una mejor utilidad  -->
 </body>
 </html>

@@ -1,103 +1,19 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-/*
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 50px;
-	font-size: 10%;
-	font: inherit;
-	vertical-align: baseline;
-    margin-top: 5px;
-}
-/* HTML5 display-role reset for older browsers */
-aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-	font: 16px/28px Georgia, 'Time New Roman',Times,serif;
-	background-color: #eee;
-	background-image: -webkit-gradient(linear, 0 100%, 100% 0,
-	color-stop(.25, rgba(255,255,255, .2)), color-stop(.25,transparent)),
-	color-stop(.5, transparent), color-stop(.5, rgba(255,255,255, .2)),
-	color-stop(.75 rgba(255.255.255, .2)), color-stop(.75,transparent),to(transparent);
-	background-image: -webkit-linear-gradient(45deg, rgba(255,255,255, .2)25%, transparent 25%, transparent 50%, rgba (255,255,255, .2)75%, transparent 75%, transparent);
-	background-image: -o-linear-gradient(45deg, rgba(255,255,255, .2) 25%, transparent 25%, transparent 50%, rgba(255,255, 255, .2)50% rgba(255,255,255, .2) 75%, transparent 75%, transparent);
-	background-image: linear-gradient(45deg, rgba(255,255,255, .2) 25%, transparent 25%, transparent 50%, rgba(255,255,255, .2)50%, rgba(255,255,255, .2) 75%, transparent 75%, transparent);
-	background-size: 16px 16px;    
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-header,nav,section{
-    border-radius: 10px;
-    padding: 15px;
-    margin-top: 10px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	margin-top: 10px;
-}
-header{
-	height: 60px;
-	width: 100%;
-	float: center;
-	overflow: hidden;
-}
-nav{
-	width: 28%;
-	float: left;
-	overflow: hidden;
-    font: 20px georgia;
-}
-/* Estilo para el contenedor */
-.contenedor {
-    position: relative;
-
-}
-.texto-superpuesto1 a {
+.texto-superpuesto1 a /*Modulo1*/{
     /* Estilos para el enlace */
-    position: absolute;
-    display: inline-block;
+    position: absolute; /* Esto lo que hace es indicar el comportamiento del elemento, en este caso se le indica que tiene posicion absoluta y que no importa si hay otros elementos este no se debe mover/desplazar*/
+    display: inline-block; /* sirve para darle un comportamiento especifico al texto, prueba borrarlo para ver la magia*/   
     color: #000000; /* Cambia el color del texto del enlace a negro */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
-    cursor: pointer;
-    font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana */
-    top: 73%; /* Coloca el enlace en el centro verticalmente */
-    left: 54%; /* Coloca el enlace en el centro horizontalmente */
+    cursor: pointer; /* Hace que cuando se pase el cursor por encima del boton se cambie por la manita del mouse*/
+    font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana, dejarlo asi si no quiere que se vea plana la transicion */
+    top: 73%; /* Lo que hace esta linea es determinar que tan abajo poner el elemento, entre mas alto el porcentaje mas abajo se pondra el elemento respecto a la resolucion de pantalla */
+    left: 54%; /* Lo que hace esta linea es determinar que tan a la izquierda poner el elemento  */
     transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
-    z-index: 3;
-    font-family: verdana;
+    z-index: 3; /*Lo que hace es posicionar este elemento por encima de los demas*/
+    font-family: verdana; /* Esta linea lo que hace es determinar el tipo de letra que se mostrara */
     transition: 300ms; /* Agregamos una transición */
 }
+/* Esta parrafo lo que hace es darle el efecto al texto superpuesto, es lo que hace que baje un poquito cuando se posa el cursos sobre el mismo*/
 .texto-superpuesto1:hover {
     position: absolute;
     grid-template-columns: 1fr 1fr 1fr; /* Propiedades del grid al pasar el cursor */
@@ -106,34 +22,34 @@ nav{
     left: 54%;
     z-index: 3;
 }
-.texto-superpuesto2 a {
+.texto-superpuesto2 a /*Modulo2*/{
     /* Estilos para el enlace */
-    position: absolute;
-    display: inline-block;
+    position: absolute; /* Esto lo que hace es indicar el comportamiento del elemento, en este caso se le indica que tiene posicion absoluta mira arriba si quieres algo mas detallado */
+    display: inline-block; /* sirve para darle un comportamiento especifico al texto, prueba borrarlo para ver la magia*/   
     color: #000000; /* Cambia el color del texto del enlace a negro */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
-    cursor: pointer;
+    cursor: pointer; /* Cambia a la manita cuando se pasa el cursor por encima*/
     font-size: 1.6vw; /* Tamaño de fuente relativo al ancho de la ventana */
     top: 45%; /* Coloca el enlace en el centro verticalmente */
     left: 85%; /* Coloca el enlace en el centro horizontalmente */
     transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
-    z-index: 3;
+    z-index: 3; /* pone el elemento por encima de los elementos, use en todos los botones index 3 para que enredarme y como no se pone uno encima de otro no habia ningun problema*/
     font-family: verdana;
     transition: 300ms; /* Agregamos una transición */
 }
+/* Esta parrafo lo que hace es darle el efecto al texto superpuesto, es lo que hace que baje un poquito cuando se posa el cursos sobre el mismo*/
 .texto-superpuesto2:hover {
     position: absolute;
     grid-template-columns: 1fr 1fr 1fr; /* Propiedades del grid al pasar el cursor */
     padding: 2.5px 2.5px; /* Propiedades del botón al pasar el cursor */
-    top: 45%;
-    left: 85%;
+    top: 45%; /* Lo que hace es determinar que tan abajo esta el elemento segun el tamaño de la ventana */
+    left: 85%; 
     z-index: 3;
 }
- /*820,480*/
-.texto-superpuesto3 a {
+.texto-superpuesto3 a /*Modulo3*/{
     /* Estilos para el enlace */
     position: absolute;
-    display: inline-block;
+    display: inline-block; /* sirve para darle un comportamiento especifico al texto, prueba borrarlo para ver la magia*/   
     color: #000000; /* Cambia el color del texto del enlace a negro */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
     cursor: pointer;
@@ -141,7 +57,7 @@ nav{
     top: 46%; /* Coloca el enlace en el centro verticalmente */
     left: 45%; /* Coloca el enlace en el centro horizontalmente */
     transform: translate(-20%, -50%); /* Centra el enlace exactamente en el centro */
-    z-index: 3;
+    z-index: 3; 
     font-family: verdana;
     transition: 300ms; /* Agregamos una transición */
 }
@@ -153,10 +69,10 @@ nav{
     left: 45%;
     z-index: 3;
 }
-.texto-superpuesto4 a {
+.texto-superpuesto4 a /*Modulo4*/{
     /* Estilos para el enlace */
     position: absolute;
-    display: inline-block;
+    display: inline-block; /* sirve para darle un comportamiento especifico al texto, prueba borrarlo para ver la magia*/   
     color: #000000; /* Cambia el color del texto del enlace a negro */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
     cursor: pointer;
@@ -176,10 +92,10 @@ nav{
     left: 81%;
     z-index: 3;
 }
-.texto-superpuesto5 a {
+.texto-superpuesto5 a /*Modulo5*/{
     /* Estilos para el enlace */
     position: absolute;
-    display: inline-block;
+    display: inline-block; /* sirve para darle un comportamiento especifico al texto, prueba borrarlo para ver la magia*/   
     color: #000000; /* Cambia el color del texto del enlace a negro */
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
     cursor: pointer;
@@ -200,23 +116,24 @@ nav{
     left: 19.5%;
     z-index: 3;
 }
+/* Este es el contenedor del plano o sea el background V: */
 .image-container {
     position: relative;
     width: 100%; /* El contenedor ocupa el 100% del ancho disponible */
     height: 100vh; /* El 100% de la altura de la ventana gráfica (viewport) */
-    z-index: 1;
+    z-index: 1; /*esta al se el background lo deje con un index de 1 o sea esta por debajo de todo, ta de base pue pue pue pue pue*/
 	overflow: hidden;
 }
+/* Y este es el parrafo del plano como tal modificas esto y la imagen se vera chiyosa */
 #mapa {
     position: relative;
     width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
     height: 100%; /* La imagen ocupa el 100% del alto del contenedor */
-    left: 0;
-    top: 0;
-    z-index: 1;
-	transition: transform 0.2s;
+    z-index: 1; /*esta al se el background lo deje con un index de 1 o sea esta por debajo de todo, ta de base pue pue pue pue pue*/
+	transition: transform 0.2s; /* Este es el tiempo que demora la transicion, esta linea la estaba usando para otra cosa
+    al no tener una transicion no es como muy util, de igual manera tu decides que hacer */
 }
-.texto-superpuesto6 {
+.texto-superpuesto6 /*Torre de La Oficina*/{
     /* Estilos para el enlace */
     position: absolute;
 	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
@@ -229,7 +146,7 @@ nav{
 	font-family: verdana;
 	white-space: nowrap;
 }
-.texto-superpuesto7 {
+.texto-superpuesto7 /* Nueva Torre*/{
     /* Estilos para el enlace */
     position: absolute;
 	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
@@ -242,7 +159,7 @@ nav{
 	font-family: verdana;
 	white-space: nowrap;	
 }
-.texto-superpuesto8 {
+.texto-superpuesto8 /* Oficina */{
     /* Estilos para el enlace */
     position: absolute;
 	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
@@ -255,7 +172,7 @@ nav{
 	font-family: verdana;
 	white-space: nowrap;
 }
-.texto-superpuesto9 {
+.texto-superpuesto9 /* Poste de Energia Interno*/{
     /* Estilos para el enlace */
     position: absolute;
 	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
@@ -268,7 +185,7 @@ nav{
 	font-family: verdana;
 	white-space: nowrap;
 }
-.texto-superpuesto10 {
+.texto-superpuesto10 /*San Antonio LAN*/{
     /* Estilos para el enlace */
     position: absolute;
 	color: #000000; /* Cambia el color del texto del enlace a azul, por ejemplo */
@@ -295,7 +212,7 @@ nav{
     font-family: verdana;
     white-space: nowrap;
 }
-.imagen-link {
-    width: 1.8vw; /* Ancho deseado en píxeles */
-    height: 1.8vw; /* Alto deseado en píxeles */
+.imagen-link /* Esta es la Imagen del Boton de regreso */{
+    width: 1.8vw; /* Ancho deseado en porcentaje para que sea autoajustable a la hora de cambiar el tamaño de la ventana */
+    height: 1.8vw; /* Alto deseado en porcentaje para que sea autoajustable a la hora de cambiar el tamano de la ventana */
 }

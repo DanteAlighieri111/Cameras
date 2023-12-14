@@ -3,7 +3,7 @@
     color: #fff;
     text-decoration: none; /* Quita el subrayado del enlace, si es necesario */
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -11,6 +11,10 @@
     left: 16.5%; /* Ajusta la posición izquierda según tus necesidades */
     z-index: 4; /* Coloca el botón por encima del contenido */
     font-family: verdana;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto1:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu1 {
@@ -36,7 +40,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -45,6 +49,10 @@
     z-index: 5; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto2:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu2 {
@@ -70,7 +78,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -79,6 +87,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto3:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu3 {
@@ -105,7 +117,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -114,6 +126,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: georgia;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto4:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu4 {
@@ -140,7 +156,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -149,6 +165,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: georgia;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto5:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu5 {
@@ -175,7 +195,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -184,6 +204,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: georgia;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto6:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu6 {
@@ -209,7 +233,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -218,6 +242,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: georgia;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto7:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu7 {
@@ -243,7 +271,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black ;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -252,6 +280,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: georgia;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto8:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu8 {
@@ -277,7 +309,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -286,6 +318,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: georgia;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto9:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu9 {
@@ -311,7 +347,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -320,6 +356,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: georgia;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto10:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu10 {
@@ -345,7 +385,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -354,6 +394,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: georgia;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto11:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu11 {
@@ -379,7 +423,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -388,6 +432,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: georgia;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto12:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu12 {
@@ -413,7 +461,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -422,6 +470,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: georgia;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto13:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu13 {
@@ -447,7 +499,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -456,6 +508,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: georgia;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto14:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu14 {
@@ -481,7 +537,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -490,6 +546,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: georgia;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto15:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu15 {
@@ -515,7 +575,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -524,6 +584,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto16:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu16 {
@@ -549,7 +613,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -558,6 +622,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto17:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu17 {
@@ -583,7 +651,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -592,6 +660,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto18:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu18 {
@@ -617,7 +689,7 @@
     background-color: #3498db;
     color: #fff;
     padding: 0.2% 0.2%;
-    border: none;
+    border: 2px solid black;
     cursor: pointer;
     position: absolute;
     font-size: 0.6vw;
@@ -626,6 +698,10 @@
     z-index: 3; /* Coloca el botón por encima del contenido */
     font-family: verdana;
     white-space: nowrap;
+    transition: all 0.5s linear; /*Controla la velocidad de transicion de todos los elementos*/
+}
+#boton-superpuesto19:hover{
+    background: forestgreen;
 }
 /* Estilo para el menú */
 #menu19 {
@@ -721,7 +797,21 @@
 }
 .visualizacion{
     font-size: 0.7vw;
+    background: #3498db;
+    color: #fff;
+    border: 2px solid black;
+    transition: all 0.5s linear;
+}
+.visualizacion:hover{
+    background: orange;
 }
 .Ubicacion{
     font-size: 0.7vw;
+    background: #3498db;
+    color: #fff;
+    border: 2px solid black;
+    transition: all 0.5s linear;
+}
+.Ubicacion:hover{
+    background: orange;
 }
